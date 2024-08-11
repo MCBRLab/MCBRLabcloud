@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>选择性多聚腺苷酸化 on Explore Biological Science And Art</title>
+    <link>http://personalized-analysis.ypt.com/tags/%E9%80%89%E6%8B%A9%E6%80%A7%E5%A4%9A%E8%81%9A%E8%85%BA%E8%8B%B7%E9%85%B8%E5%8C%96/</link>
+    <description>Recent content in 选择性多聚腺苷酸化 on Explore Biological Science And Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/%E9%80%89%E6%8B%A9%E6%80%A7%E5%A4%9A%E8%81%9A%E8%85%BA%E8%8B%B7%E9%85%B8%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>选择性多聚腺苷酸化 （APA）</title>
+      <link>http://personalized-analysis.ypt.com/rnaseq/dapars%E5%92%8Cqapa/</link>
+      <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
+      
+      <guid>http://personalized-analysis.ypt.com/rnaseq/dapars%E5%92%8Cqapa/</guid>
+      <description>概述  选择性多聚腺苷酸化（APA）是大多数人类基因调控的普遍机制，其在包括癌症在内的疾病中的影响才刚刚开始被认识到。由于传统的 APA 分析尚未被广泛采用，因此全球癌症 APA 研究非常有限。在这里，我们开发了一种新的生物信息学算法（DaPars），用于从标准RNA-seq中从头识别动态APA。当应用于七种肿瘤类型的 358 对 TCGA 泛癌肿瘤/正常对时，DaPars 揭示了 1,346 个具有复发性和肿瘤特异性 APA 的基因。大多数 APA 基因 （91%） 在肿瘤中具有较短的 3′-非翻译区 （3′ UTR），可以避免 microRNA 介导的抑制，包括谷氨酰胺酶 （GLS），这是肿瘤增殖的关键代谢酶。有趣的是，选定的 APA 事件在常见的临床和分子变量之外增加了强大的预后能力，表明它们具有作为新型预后生物标志物的潜力。最后，我们的研究结果表明 CstF64（一种必需的多聚腺苷酸化因子）是多种肿瘤类型中 3′-UTR 缩短的主要调节因子。  分析软件  https://github.com/ZhengXia/dapars https://github.com/3UTR/DaPars2   例子  https://github.com/ZhengXia/dapars  分析需求  只对有参物种。   提供数据  有参物种得注释信息gff文件fa文件。   问题  可以全部基因，或者只针对染色体水平。  参考文献  Feng X, Li L, Wagner EJ, Li W; TC3A: The Cancer 3′ UTR Atlas, Nucleic Acids Research, Volume 46, Issue D1, 4 January 2018, Pages D1027–D1030 Li L^, Huang K^, Gao YP, Cui Y, Wang G, Nathan D, Li YM, Chen YE, Ji P, Peng F, William K, Wagner EJ, Li W.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>差异分析 on Explore Biological Science And Art</title>
+    <link>http://personalized-analysis.ypt.com/tags/%E5%B7%AE%E5%BC%82%E5%88%86%E6%9E%90/</link>
+    <description>Recent content in 差异分析 on Explore Biological Science And Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/%E5%B7%AE%E5%BC%82%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不同物种同源gene的差异分析</title>
+      <link>http://personalized-analysis.ypt.com/rnaseq/%E4%B8%8D%E5%90%8C%E7%89%A9%E7%A7%8D%E5%90%8C%E6%BA%90gene%E7%9A%84%E5%B7%AE%E5%BC%82%E5%88%86%E6%9E%90/</link>
+      <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
+      
+      <guid>http://personalized-analysis.ypt.com/rnaseq/%E4%B8%8D%E5%90%8C%E7%89%A9%E7%A7%8D%E5%90%8C%E6%BA%90gene%E7%9A%84%E5%B7%AE%E5%BC%82%E5%88%86%E6%9E%90/</guid>
+      <description>概述  SCBN该软件包为不同物种之间的RNA-seq数据提供了一种统计归一化方法和差异表达分析。它考虑了物种间不同的基因长度和未定位的基因，从假设检验的角度提出了问题，并寻求一个最优比例因子，使经验型误差和名义I型误差之间的偏差最小化。采用基于尺度的归一化（SCBN）方法用于分析与同物种数据不同的跨物种RNE-seq数据。我们通过一组 R 函数实现了 SCBN 方法。我们制作了一个名为 SCBN 的 R 包，并为该包提供了教程。该方法包括三个步骤。 第 1 步：数据预处理; 第 2 步：计算数据的比例因子; 第 3 步：计算每个直系同源基因的 p 值并选择显著性。  分析软件  https://bioconductor.org/packages/release/bioc/vignettes/SCBN/inst/doc/SCBN.html   例子  https://bioconductor.org/packages/release/bioc/vignettes/SCBN/inst/doc/SCBN.html  分析需求  提供不同物种的基因表达量   提供数据  有参物种得注释信息gff文件fa文件。   问题  我们根据这个包的使用说明，软件只能输出pvalue值，无fc值;这个R包只能适用于不同物种单个样品的差异分析  参考文献  Zhou, Y., Zhu, J., Tong, T. et al. A statistical normalization method and differential expression analysis for RNA-seq data between different species. BMC Bioinformatics 20, 163 (2019).</description>
+    </item>
+    
+  </channel>
+</rss>

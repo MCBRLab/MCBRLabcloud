@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>miRNA on Explore Biological Science And Art</title>
+    <link>http://personalized-analysis.ypt.com/tags/mirna/</link>
+    <description>Recent content in miRNA on Explore Biological Science And Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/mirna/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>siRNA分析（24nt-siRNA）</title>
+      <link>http://personalized-analysis.ypt.com/rnaseq/sirna%E5%88%86%E6%9E%90/</link>
+      <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
+      
+      <guid>http://personalized-analysis.ypt.com/rnaseq/sirna%E5%88%86%E6%9E%90/</guid>
+      <description>概述  小 RNA 测序允许对产生调节性小 RNA 的基因进行全基因组发现、分类和定量。已经描述了许多工具，用于从小 RNA-seq 数据中注释和定量 microRNA 位点 （MIRNA）。然而，在许多生物体和组织类型中，MIRNA基因仅占所有产生RNA的小基因的一小部分。ShortStack 是一个独立的应用程序，可分析参考对齐的小 RNA-seq 数据，并对推断的小 RNA 基因进行全面的从头注释和定量。ShortStack 的输出报告了与小 RNA 基因注释直接相关的多个参数，包括 RNA 大小分布、重复性、链性、发夹关联、MIRNA 注释和相位。在这项研究中，ShortStack 被证明可以对来自四种植物（拟南芥、番茄、水稻和玉米）和三种动物（果蝇、小鼠和人类）的各种小 RNA 基因进行准确的注释和有用的描述。ShortStack 使用适度的计算资源有效地处理非常大的小型 RNA-seq 数据集，其性能与之前描述的工具相比具有优势。ShortStack 对 MIRNA 位点的注释在植物和动物中都具有高度特异性。ShortStack 在 GNU 通用公共许可证下免费提供。  分析软件  ShortStack.pl 和下游分析（HOMER：http://homer.ucsd.edu/homer/ngs/csRNAseq/index.html）   例子  https://github.com/MikeAxtell/ShortStack  分析需求  只对有参物种。   提供数据  smallRNA原始数据。   问题  无  参考文献  Axtell MJ. ShortStack: comprehensive annotation and quantification of small RNA genes.</description>
+    </item>
+    
+  </channel>
+</rss>

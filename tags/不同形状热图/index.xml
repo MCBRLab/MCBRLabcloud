@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>不同形状热图 on Explore Biological Science And Art</title>
+    <link>http://personalized-analysis.ypt.com/tags/%E4%B8%8D%E5%90%8C%E5%BD%A2%E7%8A%B6%E7%83%AD%E5%9B%BE/</link>
+    <description>Recent content in 不同形状热图 on Explore Biological Science And Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/%E4%B8%8D%E5%90%8C%E5%BD%A2%E7%8A%B6%E7%83%AD%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>不同形状热图</title>
+      <link>http://personalized-analysis.ypt.com/rnaseq/%E4%B8%8D%E5%90%8C%E5%BD%A2%E7%8A%B6%E7%83%AD%E5%9B%BE/</link>
+      <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
+      
+      <guid>http://personalized-analysis.ypt.com/rnaseq/%E4%B8%8D%E5%90%8C%E5%BD%A2%E7%8A%B6%E7%83%AD%E5%9B%BE/</guid>
+      <description>概述  热图以不同的shape来展示不同类型的数值的结果  分析软件  自己开发的R脚本   例子  https://motrpac.github.io/MotrpacRatTraining6mo/  分析需求  无   提供数据  任何的数值的数据即可   问题  无  参考文献  MoTrPAC Study Group., Lead Analysts. &amp;amp; MoTrPAC Study Group. Temporal dynamics of the multi-omic response to endurance exercise training. Nature 629, 174–183 (2024). https://doi.org/10.1038/s41586-023-06877-w  </description>
+    </item>
+    
+  </channel>
+</rss>

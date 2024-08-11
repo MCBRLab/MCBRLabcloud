@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>元件分析 on Explore Biological Science And Art</title>
+    <link>http://personalized-analysis.ypt.com/tags/%E5%85%83%E4%BB%B6%E5%88%86%E6%9E%90/</link>
+    <description>Recent content in 元件分析 on Explore Biological Science And Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/%E5%85%83%E4%BB%B6%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>转座元件分析</title>
+      <link>http://personalized-analysis.ypt.com/rnaseq/%E8%BD%AC%E5%BA%A7%E5%85%83%E4%BB%B6%E5%88%86%E6%9E%90/</link>
+      <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
+      
+      <guid>http://personalized-analysis.ypt.com/rnaseq/%E8%BD%AC%E5%BA%A7%E5%85%83%E4%BB%B6%E5%88%86%E6%9E%90/</guid>
+      <description>概述  RepeatMasker 是一个程序，用于筛选 DNA 序列中的穿插重复序列和低复杂性 DNA 序列。该程序的输出是对查询序列中存在的重复项的详细注释，以及查询序列的修改版本，其中所有带注释的重复都被屏蔽了（默认：由 Ns 替换）。目前，超过56%的人类基因组序列被该程序识别和屏蔽。RepeatMasker 中的序列比较由几个流行的搜索引擎之一执行，包括 nhmmer、cross_match、ABBlast/WUBlast、RMBlast 和 Decypher。RepeatMasker 使用精选的重复库，目前支持 Dfam（源自 Repbase 序列的配置文件 HMM 库）和 Repbase，这是遗传信息研究所的一项服务。  分析软件  RepeatMasker （Dfam数据库）https://www.repeatmasker.org/   例子  https://www.repeatmasker.org/ https://dfam.org/help/tools https://www.dfam.org/classification/dna-termini  分析需求  分析转录元件（逆转录转座子及DNA转座子）。   提供数据  提供物种信息及基因ID或基因序列。   问题  无  参考文献  Robert Hubley, Robert D. Finn, Jody Clements, Sean R. Eddy, Thomas A. Jones, Weidong Bao, Arian F.A. Smit, Travis J. Wheeler Nucleic Acids Research.</description>
+    </item>
+    
+  </channel>
+</rss>

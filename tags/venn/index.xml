@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VENN on Explore Biological Science And Art</title>
+    <link>http://personalized-analysis.ypt.com/tags/venn/</link>
+    <description>Recent content in VENN on Explore Biological Science And Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/venn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>复杂Venn</title>
+      <link>http://personalized-analysis.ypt.com/rnaseq/%E5%A4%8D%E6%9D%82venn/</link>
+      <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
+      
+      <guid>http://personalized-analysis.ypt.com/rnaseq/%E5%A4%8D%E6%9D%82venn/</guid>
+      <description>概述 -nVenn： 用于渲染广义 n 维维恩图的所有区域，同时保持每个区域的面积与所包含的元素数量大致成正比。此外，欧拉图中缺失的区域会导致表示简化。该算法生成一个 n 维维恩图，并在每个区域中插入给定区域的圆圈。然后，通过动态的自校正模拟重新排列图表，其中每个设置的边界都会收缩，直到它接触到内部的圆圈。
+分析软件  nVennR R package   例子  https://czheluo.github.io/Teach-Bioinformatics-R-dataviz/ https://github.com/cran/nVennR  分析需求  相同指标不同组别的对应关系。   提供数据  差异基因集合。   问题  确认相应的图形要求或者展示情况。  参考文献  José G Pérez-Silva, Miguel Araujo-Voces, Víctor Quesada, nVenn: generalized, quasi-proportional Venn and Euler diagrams, Bioinformatics, Volume 34, Issue 13, July 2018, Pages 2322–2324, https://doi.org/10.1093/bioinformatics/bty109  </description>
+    </item>
+    
+  </channel>
+</rss>

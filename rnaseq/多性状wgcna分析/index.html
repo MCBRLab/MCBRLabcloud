@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="/images/bio.svg">
+    <link rel="stylesheet" type="text/css" href="/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <script src="https://kit.fontawesome.com/b7002cebe4.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Explore Biological Science And Art | 多性状WGCNA分析</title>
+</head><body><div id="alert" class="notification is-danger is-hidden" style="position: absolute; bottom: 0; right: 0; z-index:99">
+    Alert
+</div><nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-brand">
+            
+                <img src="/images/MCBRL.svg" width="200" height="60">
+            
+        </a>
+        <a id="navBarButton" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navBarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            
+            
+            
+            <a class="navbar-item" href="/">
+            
+            <i class="fas fa-home pr-2"></i> 
+            Home</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/rnaseq/">
+            
+            <i class="fas fa-file-alt pr-2"></i> 
+            RNAseq</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/scrnaseq/">
+            
+            <i class="fas fa-file-alt pr-2"></i> 
+            scRNAseq</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/tags/">
+            
+            <i class="fas fa-tags pr-2"></i> 
+            Categories</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <form class="field has-addons">
+                    <div class="control">
+                        <input class="input" id="searchTerm" type="text" value="" placeholder="Search Term...">
+                    </div>
+                    <div class="control">
+                        <button id="searchButton" class="button is-secondary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav><div id="searchResults" class="section is-hidden">
+    <h4 class="title is-3"> Search results </h4>
+    <div id="searchResultsCol" class="columns is-multiline">
+        
+    </div>
+</div>
+<script id="search-result-template" type="text/x-js-template">
+    <div class="column is-one-quarter">
+        <div class="result" id="summary-${key}">
+            <div class="card" style="border-radius: 1%;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+        <img style="border-radius: 3%;" src="${image}" alt="Placeholder image">
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media-content">
+            <p class="title is-4 has-text-centered">${title}</p>
+            <p class="subtitle is-6 "><em></em></p>
+        </div>
+        <div class="content">
+            <p class="is-small">${snippet}</p>
+        </div>
+        <div class="card-footer">
+            <a href="${link}" class="card-footer-item button is-primary">详情</a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</script><div id="content">
+<div class="section">
+    <div class="columns is-centered">
+        <div class="column is-full-mobile is-half-desktop" style="border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+            <div class="is-flex" style="justify-content: center; border-radius: 3%; background-color: #f0f5f1; position: relative;">
+                <figure class="image"> 
+                    <img style="border-radius: 3%; width: 512px; height: 512px" src=http://personalized-analysis.ypt.com/rnaseq/Figs/wgcna.webp alt="Placeholder image">
+                </figure>
+                
+            </div>
+            
+            <div class="container has-text-centered">
+                <h1 class="title is-bold"> 多性状WGCNA分析</h1>
+                <p class="subtitle is-italic"> contact: czheluo@gmail.com</p>
+                <div class="container has-text-right">
+                    
+
+<i class="far fa-calendar-alt"></i>
+<time datetime="07-24-2024">Jul 24, 2024</time>
+
+<i class="fas fa-tags"></i>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://personalized-analysis.ypt.com/tags/wgcna">WGCNA</a>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://personalized-analysis.ypt.com/tags/%E5%A4%9A%E6%80%A7%E7%8A%B6">多性状</a>
+
+
+                </div>
+                <hr>
+            </div>
+            
+            <hr>
+            
+            <div class="content">
+                <h2 id="概述">概述</h2>
+<ul>
+<li>基因共表达网络代表了具有共同生物学功能的基因模块，并已被广泛用于对基因表达数据中的生物学途径进行建模。可以使用加权基因共表达网络分析（WGCNA）构建和鉴定与特定性状相关的共表达网络，这对于研究疾病中的转录特征特别有用。WGCNA网络通常使用疾病和野生型样本构建，因此可以识别与疾病相关的分子通路。然而，在疾病背景下跨时空条件下研究这种共表达网络将是有利的，但目前还没有用于此类分析的综合软件实现。 multiWGCNA，该过程是为具有可变空间或时间特征的数据集量身定制的。除了构建组合网络外，multiWGCNA还为每个条件分别生成一个网络，随后在设计之间和设计之间映射这些模块，并执行相关的下游分析，包括模块-特征相关性和模块保留。当应用于来自实验性自身免疫性脑炎小鼠不同大脑区域的星形胶质细胞特异性 RNA 测序 （RNA-seq） 数据时，multiWGCNA 仅在疾病环境中解决了神经毒性星形胶质细胞转录程序的从头形成。使用来自具有tau病理学的小鼠的时程RNA-seq（rTg4510），我们展示了multiWGCNA如何也可用于研究疾病进展过程中病理模块的时间演变。</li>
+</ul>
+<h2 id="分析软件">分析软件</h2>
+<ul>
+<li>multiWGCNAR包进行分析（https://github.com/fogellab/multiWGCNA）</li>
+<li></li>
+</ul>
+<h2 id="例子">例子</h2>
+<ul>
+<li><a href="https://github.com/fogellab/multiWGCNA">https://github.com/fogellab/multiWGCNA</a></li>
+</ul>
+<h2 id="分析需求">分析需求</h2>
+<ul>
+<li>只对有参物种。</li>
+<li></li>
+</ul>
+<h2 id="提供数据">提供数据</h2>
+<ul>
+<li>提供18个样本以上的表达量数据，及对应样本的表型。</li>
+<li></li>
+</ul>
+<h2 id="问题">问题</h2>
+<ul>
+<li>无</li>
+</ul>
+<h2 id="参考文献">参考文献</h2>
+<ul>
+<li>Tommasini, D., Fogel, B.L. multiWGCNA: an R package for deep mining gene co-expression networks in multi-trait expression data. BMC Bioinformatics 24, 115 (2023). <a href="https://doi.org/10.1186/s12859-023-05233-z">https://doi.org/10.1186/s12859-023-05233-z</a></li>
+<li></li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div><footer class="footer">
+    <div class="footer-container">
+    </div><div class="footer-line" style="text-align: center;"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2024 <a href="https://github.com/MCBRLab" target="_blank">MCBRLab</a>. All rights reserved.</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+    
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5dx0iqym06w&amp;m=6&amp;c=0006ff&amp;cr1=00fff6&amp;f=arial&amp;l=33" async="async"></script>
+</footer>
+<script src="/js/umbrella.min.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+
+</body>
+</html>

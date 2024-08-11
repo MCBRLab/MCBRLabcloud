@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>外显子 on Explore Biological Science And Art</title>
+    <link>http://personalized-analysis.ypt.com/tags/%E5%A4%96%E6%98%BE%E5%AD%90/</link>
+    <description>Recent content in 外显子 on Explore Biological Science And Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/%E5%A4%96%E6%98%BE%E5%AD%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>分析外显子差异表达</title>
+      <link>http://personalized-analysis.ypt.com/rnaseq/%E5%88%86%E6%9E%90%E5%A4%96%E6%98%BE%E5%AD%90%E5%B7%AE%E5%BC%82%E8%A1%A8%E8%BE%BE/</link>
+      <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
+      
+      <guid>http://personalized-analysis.ypt.com/rnaseq/%E5%88%86%E6%9E%90%E5%A4%96%E6%98%BE%E5%AD%90%E5%B7%AE%E5%BC%82%E8%A1%A8%E8%BE%BE/</guid>
+      <description>概述  RNA-seq是研究选择性剪接和其他形式的选择性亚型表达的有力工具。要了解这些过程的调控，就需要在比较条件、细胞类型或组织之间的差异亚型丰度时，对差异亚型丰度进行灵敏和特异性的检测。我们提出了 DEXSeq，这是一种统计方法，用于测试 RNA-seq 数据中差异外显子的使用。DEXSeq 使用广义线性模型，并通过考虑生物学变异来提供对错误发现的可靠控制。DEXSeq 可检测具有高灵敏度的基因，在许多情况下，可检测外显子，这些基因会受到不同外显子使用的影响。我们通过将 DEXSeq 应用于多个数据集来展示其多功能性。该方法有助于在全基因组范围内研究替代性外显子使用的调控和功能。DEXSeq 的实现以 R/Bioconductor 包的形式提供。  分析软件  R package和Python package，对于intron的分析也是可以，得调整gff文件   例子  https://bioconductor.org/packages/release/bioc/html/DEXSeq.html https://bioconductor.org/packages/release/bioc/vignettes/DEXSeq/inst/doc/DEXSeq.html  分析需求  物种注释信息全（有参）。   提供数据  原始数据开始，比对-定量（htseq、feature-count）-差异分析（可变剪接）。   问题  可以全部基因，或者只针对染色体水平。  参考文献  Anders S, Reyes A, Huber W. Detecting differential usage of exons from RNA-seq data. Genome Res. 2012 Oct;22(10):2008-17. doi: 10.1101/gr.133744.111. Epub 2012 Jun 21. PMID: 22722343; PMCID: PMC3460195.  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="/images/bio.svg">
+    <link rel="stylesheet" type="text/css" href="/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <script src="https://kit.fontawesome.com/b7002cebe4.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Explore Biological Science And Art | Analysis of the expression levels of repetitive elements</title>
+</head><body><div id="alert" class="notification is-danger is-hidden" style="position: absolute; bottom: 0; right: 0; z-index:99">
+    Alert
+</div><nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-brand">
+            
+                <img src="/images/MCBRL.svg" width="200" height="60">
+            
+        </a>
+        <a id="navBarButton" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navBarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            
+            
+            
+            <a class="navbar-item" href="/">
+            
+            <i class="fas fa-home pr-2"></i> 
+            Home</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/rnaseq/">
+            
+            <i class="fas fa-file-alt pr-2"></i> 
+            RNAseq</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/scrnaseq/">
+            
+            <i class="fas fa-file-alt pr-2"></i> 
+            scRNAseq</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/tags/">
+            
+            <i class="fas fa-tags pr-2"></i> 
+            Categories</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <form class="field has-addons">
+                    <div class="control">
+                        <input class="input" id="searchTerm" type="text" value="" placeholder="Search Term...">
+                    </div>
+                    <div class="control">
+                        <button id="searchButton" class="button is-secondary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav><div id="searchResults" class="section is-hidden">
+    <h4 class="title is-3"> Search results </h4>
+    <div id="searchResultsCol" class="columns is-multiline">
+        
+    </div>
+</div>
+<script id="search-result-template" type="text/x-js-template">
+    <div class="column is-one-quarter">
+        <div class="result" id="summary-${key}">
+            <div class="card" style="border-radius: 1%;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+        <img style="border-radius: 3%;" src="${image}" alt="Placeholder image">
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media-content">
+            <p class="title is-4 has-text-centered">${title}</p>
+            <p class="subtitle is-6 "><em></em></p>
+        </div>
+        <div class="content">
+            <p class="is-small">${snippet}</p>
+        </div>
+        <div class="card-footer">
+            <a href="${link}" class="card-footer-item button is-primary">详情</a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</script><div id="content">
+<div class="section">
+    <div class="columns is-centered">
+        <div class="column is-full-mobile is-half-desktop" style="border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+            <div class="is-flex" style="justify-content: center; border-radius: 3%; background-color: #f0f5f1; position: relative;">
+                <figure class="image"> 
+                    <img style="border-radius: 3%; width: 512px; height: 512px" src=http://personalized-analysis.ypt.com/rnaseq/Figs/btv422f1p.jpg alt="Placeholder image">
+                </figure>
+                
+            </div>
+            
+            <div class="container has-text-centered">
+                <h1 class="title is-bold"> Analysis of the expression levels of repetitive elements</h1>
+                <p class="subtitle is-italic"> contact: czheluo@gmail.com</p>
+                <div class="container has-text-right">
+                    
+
+<i class="far fa-calendar-alt"></i>
+<time datetime="07-24-2024">Jul 24, 2024</time>
+
+<i class="fas fa-tags"></i>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://personalized-analysis.ypt.com/tags/repetitive-elements">repetitive elements</a>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://personalized-analysis.ypt.com/tags/rnaseq">RNAseq</a>
+
+
+                </div>
+                <hr>
+            </div>
+            
+            <hr>
+            
+            <div class="content">
+                <h2 id="概述">概述</h2>
+<ul>
+<li>大多数RNA-seq数据分析软件包的设计并不能处理将短测序读长正确分配给基因组高度重复区域所涉及的复杂性。这些区域通常被转座元件 （TE） 占据，这些元件占真核生物基因组的 20% 到 80%。它们可以贡献转录组学和基因组序列读取的很大一部分，但在大多数分析中通常被忽略。TEtranscripts用于在差异表达分析中包括基因和TE相关的模糊映射reads。在合成数据和qPCR/NanoString验证的已发表数据集中，我们的方法显示出比其他已发表的表达分析方法更高的TE转录本的回收率。</li>
+</ul>
+<h2 id="分析软件">分析软件</h2>
+<ul>
+<li><a href="https://github.com/mhammell-laboratory/TEtranscripts">https://github.com/mhammell-laboratory/TEtranscripts</a></li>
+<li></li>
+</ul>
+<h2 id="例子">例子</h2>
+<ul>
+<li><a href="https://github.com/mhammell-laboratory/TEtranscripts">https://github.com/mhammell-laboratory/TEtranscripts</a></li>
+</ul>
+<h2 id="分析需求">分析需求</h2>
+<ul>
+<li>只对有参物种。</li>
+<li></li>
+</ul>
+<h2 id="提供数据">提供数据</h2>
+<ul>
+<li>有参物种得注释信息gff文件fa文件。</li>
+<li></li>
+</ul>
+<h2 id="问题">问题</h2>
+<ul>
+<li>可以全部基因，或者只针对染色体水平。</li>
+</ul>
+<h2 id="参考文献">参考文献</h2>
+<ul>
+<li>Jin Y, Tam OH, Paniagua E, Hammell M. TEtranscripts: a package for including transposable elements in differential expression analysis of RNA-seq datasets. Bioinformatics. 2015 Nov 15;31(22):3593-9. doi: 10.1093/bioinformatics/btv422. Epub 2015 Jul 23. PMID: 26206304; PMCID: PMC4757950.</li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div><footer class="footer">
+    <div class="footer-container">
+    </div><div class="footer-line" style="text-align: center;"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2024 <a href="https://github.com/MCBRLab" target="_blank">MCBRLab</a>. All rights reserved.</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+    
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5dx0iqym06w&amp;m=6&amp;c=0006ff&amp;cr1=00fff6&amp;f=arial&amp;l=33" async="async"></script>
+</footer>
+<script src="/js/umbrella.min.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="/images/bio.svg">
+    <link rel="stylesheet" type="text/css" href="/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <script src="https://kit.fontawesome.com/b7002cebe4.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Explore Biological Science And Art | 转座元件分析</title>
+</head><body><div id="alert" class="notification is-danger is-hidden" style="position: absolute; bottom: 0; right: 0; z-index:99">
+    Alert
+</div><nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-brand">
+            
+                <img src="/images/MCBRL.svg" width="200" height="60">
+            
+        </a>
+        <a id="navBarButton" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navBarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            
+            
+            
+            <a class="navbar-item" href="/">
+            
+            <i class="fas fa-home pr-2"></i> 
+            Home</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/rnaseq/">
+            
+            <i class="fas fa-file-alt pr-2"></i> 
+            RNAseq</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/scrnaseq/">
+            
+            <i class="fas fa-file-alt pr-2"></i> 
+            scRNAseq</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/tags/">
+            
+            <i class="fas fa-tags pr-2"></i> 
+            Categories</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <form class="field has-addons">
+                    <div class="control">
+                        <input class="input" id="searchTerm" type="text" value="" placeholder="Search Term...">
+                    </div>
+                    <div class="control">
+                        <button id="searchButton" class="button is-secondary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav><div id="searchResults" class="section is-hidden">
+    <h4 class="title is-3"> Search results </h4>
+    <div id="searchResultsCol" class="columns is-multiline">
+        
+    </div>
+</div>
+<script id="search-result-template" type="text/x-js-template">
+    <div class="column is-one-quarter">
+        <div class="result" id="summary-${key}">
+            <div class="card" style="border-radius: 1%;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+        <img style="border-radius: 3%;" src="${image}" alt="Placeholder image">
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media-content">
+            <p class="title is-4 has-text-centered">${title}</p>
+            <p class="subtitle is-6 "><em></em></p>
+        </div>
+        <div class="content">
+            <p class="is-small">${snippet}</p>
+        </div>
+        <div class="card-footer">
+            <a href="${link}" class="card-footer-item button is-primary">详情</a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</script><div id="content">
+<div class="section">
+    <div class="columns is-centered">
+        <div class="column is-full-mobile is-half-desktop" style="border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+            <div class="is-flex" style="justify-content: center; border-radius: 3%; background-color: #f0f5f1; position: relative;">
+                <figure class="image"> 
+                    <img style="border-radius: 3%; width: 512px; height: 512px" src=http://personalized-analysis.ypt.com/rnaseq/Figs/dfam.jpg alt="Placeholder image">
+                </figure>
+                
+            </div>
+            
+            <div class="container has-text-centered">
+                <h1 class="title is-bold"> 转座元件分析</h1>
+                <p class="subtitle is-italic"> contact: czheluo@gmail.com</p>
+                <div class="container has-text-right">
+                    
+
+<i class="far fa-calendar-alt"></i>
+<time datetime="07-24-2024">Jul 24, 2024</time>
+
+<i class="fas fa-tags"></i>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://personalized-analysis.ypt.com/tags/%E8%BD%AC%E5%BA%A7%E5%AD%90">转座子</a>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://personalized-analysis.ypt.com/tags/%E5%85%83%E4%BB%B6%E5%88%86%E6%9E%90">元件分析</a>
+
+
+                </div>
+                <hr>
+            </div>
+            
+            <hr>
+            
+            <div class="content">
+                <h2 id="概述">概述</h2>
+<ul>
+<li>RepeatMasker 是一个程序，用于筛选 DNA 序列中的穿插重复序列和低复杂性 DNA 序列。该程序的输出是对查询序列中存在的重复项的详细注释，以及查询序列的修改版本，其中所有带注释的重复都被屏蔽了（默认：由 Ns 替换）。目前，超过56%的人类基因组序列被该程序识别和屏蔽。RepeatMasker 中的序列比较由几个流行的搜索引擎之一执行，包括 nhmmer、cross_match、ABBlast/WUBlast、RMBlast 和 Decypher。RepeatMasker 使用精选的重复库，目前支持 Dfam（源自 Repbase 序列的配置文件 HMM 库）和 Repbase，这是遗传信息研究所的一项服务。</li>
+</ul>
+<h2 id="分析软件">分析软件</h2>
+<ul>
+<li>RepeatMasker （Dfam数据库）https://www.repeatmasker.org/</li>
+<li></li>
+</ul>
+<h2 id="例子">例子</h2>
+<ul>
+<li><a href="https://www.repeatmasker.org/">https://www.repeatmasker.org/</a></li>
+<li><a href="https://dfam.org/help/tools">https://dfam.org/help/tools</a></li>
+<li><a href="https://www.dfam.org/classification/dna-termini">https://www.dfam.org/classification/dna-termini</a></li>
+</ul>
+<h2 id="分析需求">分析需求</h2>
+<ul>
+<li>分析转录元件（逆转录转座子及DNA转座子）。</li>
+<li></li>
+</ul>
+<h2 id="提供数据">提供数据</h2>
+<ul>
+<li>提供物种信息及基因ID或基因序列。</li>
+<li></li>
+</ul>
+<h2 id="问题">问题</h2>
+<ul>
+<li>无</li>
+</ul>
+<h2 id="参考文献">参考文献</h2>
+<ul>
+<li>Robert Hubley, Robert D. Finn, Jody Clements, Sean R. Eddy, Thomas A. Jones, Weidong Bao, Arian F.A. Smit, Travis J. Wheeler Nucleic Acids Research. 2016; 44 (D1): D81–D89. <a href="https://doi.org/10.1093/nar/gkv1272">https://doi.org/10.1093/nar/gkv1272</a></li>
+<li>Almeida MV, Vernaz G, Putman ALK, Miska EA. Taming transposable elements in vertebrates: from epigenetic silencing to domestication. Trends Genet. 2022 Jun;38(6):529-553. doi: 10.1016/j.tig.2022.02.009. Epub 2022 Mar 17. PMID: 35307201.</li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div><footer class="footer">
+    <div class="footer-container">
+    </div><div class="footer-line" style="text-align: center;"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2024 <a href="https://github.com/MCBRLab" target="_blank">MCBRLab</a>. All rights reserved.</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+    
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5dx0iqym06w&amp;m=6&amp;c=0006ff&amp;cr1=00fff6&amp;f=arial&amp;l=33" async="async"></script>
+</footer>
+<script src="/js/umbrella.min.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+
+</body>
+</html>

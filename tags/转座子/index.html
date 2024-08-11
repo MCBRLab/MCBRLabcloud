@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="/images/bio.svg">
+    <link rel="stylesheet" type="text/css" href="/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <script src="https://kit.fontawesome.com/b7002cebe4.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Explore Biological Science And Art | 转座子</title>
+</head><body><div id="alert" class="notification is-danger is-hidden" style="position: absolute; bottom: 0; right: 0; z-index:99">
+    Alert
+</div><nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-brand">
+            
+                <img src="/images/MCBRL.svg" width="200" height="60">
+            
+        </a>
+        <a id="navBarButton" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navBarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            
+            
+            
+            <a class="navbar-item" href="/">
+            
+            <i class="fas fa-home pr-2"></i> 
+            Home</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/rnaseq/">
+            
+            <i class="fas fa-file-alt pr-2"></i> 
+            RNAseq</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/scrnaseq/">
+            
+            <i class="fas fa-file-alt pr-2"></i> 
+            scRNAseq</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/tags/">
+            
+            <i class="fas fa-tags pr-2"></i> 
+            Categories</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <form class="field has-addons">
+                    <div class="control">
+                        <input class="input" id="searchTerm" type="text" value="" placeholder="Search Term...">
+                    </div>
+                    <div class="control">
+                        <button id="searchButton" class="button is-secondary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav><div id="searchResults" class="section is-hidden">
+    <h4 class="title is-3"> Search results </h4>
+    <div id="searchResultsCol" class="columns is-multiline">
+        
+    </div>
+</div>
+<script id="search-result-template" type="text/x-js-template">
+    <div class="column is-one-quarter">
+        <div class="result" id="summary-${key}">
+            <div class="card" style="border-radius: 1%;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+        <img style="border-radius: 3%;" src="${image}" alt="Placeholder image">
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media-content">
+            <p class="title is-4 has-text-centered">${title}</p>
+            <p class="subtitle is-6 "><em></em></p>
+        </div>
+        <div class="content">
+            <p class="is-small">${snippet}</p>
+        </div>
+        <div class="card-footer">
+            <a href="${link}" class="card-footer-item button is-primary">详情</a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</script><div id="content">
+<div class="section">
+    
+    <div class="columns is-multiline">
+        
+        
+        <div class="column is-one-quarter">
+            <div class="card" style="border-radius: 1%;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+        <img style="border-radius: 3%;" src="http://personalized-analysis.ypt.com/rnaseq/Figs/dfam.jpg" alt="Placeholder image">
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media-content">
+            <p class="title is-4 has-text-centered">转座元件分析</p>
+            <p class="subtitle is-6 "><em>contact: czheluo@gmail.com</em></p>
+        </div>
+        <div class="content">
+            <p class="is-small" style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 200%;" >RepeatMasker 是一个程序，用于筛选 DNA 序列中的穿插重复序列和低复杂性 DNA 序列。该程序的输出是对查询序列中存在的重复项的详细注释，以及查询序列的修改版本，其中所有带注释的重复都被屏蔽了（默认：由 Ns 替换）。目前，超过56%的人类基因组序列被该程序识别和屏蔽。RepeatMasker 中的序列比较由几个流行的搜索引擎之一执行，包括 nhmmer、cross_match、ABBlast/WUBlast、RMBlast 和 Decypher。RepeatMasker 使用精选的重复库，目前支持 Dfam（源自 Repbase 序列的配置文件 HMM 库）和 Repbase，这是遗传信息研究所的一项服务。</p>
+            <br>
+            <i class="fas fa-tags pr-2"></i>
+                
+            <a href="/tags/%e8%bd%ac%e5%ba%a7%e5%ad%90">转座子</a>
+                
+            <a href="/tags/%e5%85%83%e4%bb%b6%e5%88%86%e6%9e%90">元件分析</a>
+                
+            <br>
+            <i class="fas fa-calendar pr-4"></i>July 2024
+        </div>
+        <div class="card-footer">
+            <a href="http://personalized-analysis.ypt.com/rnaseq/%E8%BD%AC%E5%BA%A7%E5%85%83%E4%BB%B6%E5%88%86%E6%9E%90/" target="_blank" class="card-footer-item button is-primary">了解更多</a>
+        </div>
+    </div>
+</div>
+ 
+        </div>
+        
+    </div>
+</div>
+
+        </div><footer class="footer">
+    <div class="footer-container">
+    </div><div class="footer-line" style="text-align: center;"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2024 <a href="https://github.com/MCBRLab" target="_blank">MCBRLab</a>. All rights reserved.</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+    
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5dx0iqym06w&amp;m=6&amp;c=0006ff&amp;cr1=00fff6&amp;f=arial&amp;l=33" async="async"></script>
+</footer>
+<script src="/js/umbrella.min.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+
+</body>
+</html>

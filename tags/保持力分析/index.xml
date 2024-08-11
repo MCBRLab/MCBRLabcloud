@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>保持力分析 on Explore Biological Science And Art</title>
+    <link>http://personalized-analysis.ypt.com/tags/%E4%BF%9D%E6%8C%81%E5%8A%9B%E5%88%86%E6%9E%90/</link>
+    <description>Recent content in 保持力分析 on Explore Biological Science And Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/%E4%BF%9D%E6%8C%81%E5%8A%9B%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>内含子保持力分析</title>
+      <link>http://personalized-analysis.ypt.com/rnaseq/%E5%86%85%E5%90%AB%E5%AD%90%E4%BF%9D%E6%8C%81%E5%8A%9B%E5%88%86%E6%9E%90/</link>
+      <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
+      
+      <guid>http://personalized-analysis.ypt.com/rnaseq/%E5%86%85%E5%90%AB%E5%AD%90%E4%BF%9D%E6%8C%81%E5%8A%9B%E5%88%86%E6%9E%90/</guid>
+      <description>概述  内含子保留 （IR） 传统上被忽视为“噪声”，在基因表达分析领域受到的关注可以忽略不计。近年来，红外光谱已成为研究转录组的一个新兴领域，因为它已被公认为具有执行基因表达调控等重要生物学功能，并且已被发现与癌症等复杂疾病有关。然而，目前检测 IR 的方法有限。因此，有必要开发新的方法来改进红外检测。iREAD（内含子保留分析和检测器）是一种用于检测RNA-seq数据集中的内含子保留（IR）事件的工具。独立内含子，是指那些不与任何剪接亚型的任何外显子重叠的内含子，用于检测 IR。iREAD 接受 two input files ： （1） 一个表示转录的 BAM 文件，以及 （2） 一个包含独立内含子及其坐标的床状文本文件。它根据一组标准输出内含子保留事件，这些标准筛选出可靠的 IR 事件。这些标准涉及内含子区域中的读取/片段数量、FPKM、连接读取、内含子内的读取分布模式。  分析软件  iread (https://github.com/genemine/iread) IRFinder-S:（https://github.com/RitchieLabIGH/IRFinder）   例子  https://genemine.github.io/iread/index.html  分析需求  只对有参物种，内含子保持力分析（多个样本）。   提供数据  原始数据或bam文件。IRFinder（也是可以的）进行定量分析。也可IntEREst （https://bitbucket.org/comp_bio/idiffir/src/master/）进行差异表达分析   问题  无  参考文献  Li, HD., Funk, C.C. &amp;amp; Price, N.D. iREAD: a tool for intron retention detection from RNA-seq data. BMC Genomics 21, 128 (2020).</description>
+    </item>
+    
+  </channel>
+</rss>

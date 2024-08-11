@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>圈图 on Explore Biological Science And Art</title>
+    <link>http://personalized-analysis.ypt.com/tags/%E5%9C%88%E5%9B%BE/</link>
+    <description>Recent content in 圈图 on Explore Biological Science And Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/%E5%9C%88%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>简单及复杂圈图可视化</title>
+      <link>http://personalized-analysis.ypt.com/rnaseq/%E7%AE%80%E5%8D%95%E5%8F%8A%E5%A4%8D%E6%9D%82%E5%9C%88%E5%9B%BE%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
+      <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
+      
+      <guid>http://personalized-analysis.ypt.com/rnaseq/%E7%AE%80%E5%8D%95%E5%8F%8A%E5%A4%8D%E6%9D%82%E5%9C%88%E5%9B%BE%E5%8F%AF%E8%A7%86%E5%8C%96/</guid>
+      <description>概述  Circos Circos，以促进识别和分析基因组比较产生的相似性和差异性。我们的工具可以有效地显示基因组结构的变化，并且通常可以显示基因组间隔之间的任何其他类型的位置关系。此类数据通常通过序列比对、杂交阵列、基因组定位和基因分型研究产生。Circos 使用圆形象形图布局，通过使用丝带来促进位置对之间关系的显示，丝带编码相关基因组元素的位置、大小和方向。Circos 能够将数据显示为散点图、折线图和直方图、热图、图块、连接器和文本。可以从 GFF 样式的数据输入和分层配置文件创建位图或矢量图像，这些文件可以通过自动化工具轻松生成，使 Circos 适合在数据分析和报告管道中快速部署。  分析软件  R package和Perl package 自主开发脚本   例子  https://jokergoo.github.io/circlize_book/book/introduction.html https://circos.ca/  分析需求  只对有参物种。   提供数据  表达量或者多变量的数据及其属性（位置信息及关系）。   问题  提供多样本基因表达量，表型值。  参考文献  Krzywinski, M. et al. Circos: an Information Aesthetic for Comparative Genomics. Genome Res (2009) 19:1639-1645  </description>
+    </item>
+    
+  </channel>
+</rss>

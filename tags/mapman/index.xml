@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MapMan on Explore Biological Science And Art</title>
+    <link>http://personalized-analysis.ypt.com/tags/mapman/</link>
+    <description>Recent content in MapMan on Explore Biological Science And Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Jul 2024 20:16:56 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/mapman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MapMan/通路图</title>
+      <link>http://personalized-analysis.ypt.com/rnaseq/mapman-%E9%80%9A%E8%B7%AF%E5%9B%BE/</link>
+      <pubDate>Thu, 25 Jul 2024 20:16:56 -0500</pubDate>
+      
+      <guid>http://personalized-analysis.ypt.com/rnaseq/mapman-%E9%80%9A%E8%B7%AF%E5%9B%BE/</guid>
+      <description>MapMan/通路图 分析软件：  Mercator4（注释）、mapman4.0（可视化）  分析需求：  已知物种或者选择近缘物种，物种选择需要老师根据Mercator4的官网来选择，同时要到mapman的官网选择可视化类型（代谢通路）  提供数据：  转录本或者基因序列  问题：  这些个网站很不稳定，注释只能线上进行（数据量大小有限制，50M）。  参考文献  Rainer Schwacke, Gabriel Y. Ponce-Soto, Kirsten Krause, Anthony M. Bolger, Borjana Arsova, Asis Hallab, Kristina Gruden, Mark Stitt, Marie E. Bolger, Björn Usadel,MapMan4: A Refined Protein Classification and Annotation Framework Applicable to Multi-Omics Data Analysis,Molecular Plant, Volume 12, Issue 6,2019,Pages 879-892,ISSN 1674-2052,https://doi.org/10.1016/j.molp.2019.01.003.  </description>
+    </item>
+    
+  </channel>
+</rss>

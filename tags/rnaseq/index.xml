@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RNAseq on Explore Biological Science And Art</title>
+    <link>http://personalized-analysis.ypt.com/tags/rnaseq/</link>
+    <description>Recent content in RNAseq on Explore Biological Science And Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/rnaseq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis of the expression levels of repetitive elements</title>
+      <link>http://personalized-analysis.ypt.com/rnaseq/tetranscripts/</link>
+      <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
+      
+      <guid>http://personalized-analysis.ypt.com/rnaseq/tetranscripts/</guid>
+      <description>概述  大多数RNA-seq数据分析软件包的设计并不能处理将短测序读长正确分配给基因组高度重复区域所涉及的复杂性。这些区域通常被转座元件 （TE） 占据，这些元件占真核生物基因组的 20% 到 80%。它们可以贡献转录组学和基因组序列读取的很大一部分，但在大多数分析中通常被忽略。TEtranscripts用于在差异表达分析中包括基因和TE相关的模糊映射reads。在合成数据和qPCR/NanoString验证的已发表数据集中，我们的方法显示出比其他已发表的表达分析方法更高的TE转录本的回收率。  分析软件  https://github.com/mhammell-laboratory/TEtranscripts   例子  https://github.com/mhammell-laboratory/TEtranscripts  分析需求  只对有参物种。   提供数据  有参物种得注释信息gff文件fa文件。   问题  可以全部基因，或者只针对染色体水平。  参考文献  Jin Y, Tam OH, Paniagua E, Hammell M. TEtranscripts: a package for including transposable elements in differential expression analysis of RNA-seq datasets. Bioinformatics. 2015 Nov 15;31(22):3593-9. doi: 10.1093/bioinformatics/btv422. Epub 2015 Jul 23. PMID: 26206304; PMCID: PMC4757950.  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/b7002cebe4.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Explore Biological Science And Art | 肿瘤-免疫浸润分析</title>
+</head><body>
+    <div class="section">
+        <div class="columns is-centered">
+            <div class="column is-half-desktop" style="border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+                <div class="container">
+                    <div class="columns">
+                        <div class="column is-half">
+                            <h1 id="mainTitle" class="title is-bold"> 肿瘤-免疫浸润分析 </h1>
+                            <p class="subtitle is-italic" style="margin-bottom: .5em;"> contact: czheluo@gmail.com</p>  
+                            
+<i class="fas fa-tags"></i>
+
+
+肿瘤微环境
+
+
+免疫浸润分析
+
+
+                            <p class="subtitle is-italic" style="margin-top: .5em;"> 肿瘤进展和免疫疗法的疗效受肿瘤微环境中免疫细胞的组成和丰度的强烈影响。由于直接测量方法的局限性，计算算法通常用于从大量肿瘤转录组谱中推断免疫细胞组成。这些估计的肿瘤免疫浸润群体与肿瘤的基因组和转录组变化有关，从而提供了对肿瘤免疫相互作用的见解。然而，对大规模公共数据的此类调查仍然具有挑战性。为了降低分析复杂肿瘤-免疫相互作用的障碍。TIMER2.0 （http://timer.cistrome.org/） 不是只使用一种算法，而是使用六种最先进的算法为癌症基因组图谱 （TCGA） 或用户提供的肿瘤图谱提供更强大的免疫浸润水平估计。TIMER2.0 提供了四个模块，用于研究免疫浸润与遗传或临床特征之间的关联，以及四个模块，用于探索 TCGA 队列中与癌症相关的关联。每个模块都可以生成一个功能性热图表，使用户能够轻松同时识别多种癌症类型的重要关联。总体而言，TIMER2.0网络服务器提供了肿瘤浸润免疫细胞的全面分析和可视化功能。</p>
+                        </div>
+                        <div class="column is-half">
+                            <div class="is-pulled-right">
+                                <figure class="image"> 
+                                    <img style="border-radius: 3%; width: 128px; height: 128px" src=http://personalized-analysis.ypt.com/scrnaseq/Figs/GraphicAbstractS.jpg alt="Placeholder image">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr style="margin-top: .5em; margin-bottom: 1em;">
+                
+                <hr style="margin-top: 1em; margin-bottom: .5em;">
+                <div class="content">
+                    <h2 id="分析需求">分析需求</h2>
+<ul>
+<li>肿瘤组织中并不是100%的细胞都是肿瘤细胞，还含有基质细胞，成纤维细胞，免疫细胞等，这些细胞构成了肿瘤微环境。 为了准确评估肿瘤微环境中免疫细胞的构成，我们可以使用cibersort或者不同的模型对RNA表达谱数据去卷积，以估计不同细胞类型和功能状态的免疫细胞的丰度。</li>
+</ul>
+<h2 id="提供数据">提供数据</h2>
+<ul>
+<li>人活鼠不同样本的基因表达量</li>
+<li></li>
+</ul>
+<h2 id="问题">问题</h2>
+<ul>
+<li>小鼠或者大鼠可以进行ID转换后可分析</li>
+</ul>
+<h2 id="参考文献">参考文献</h2>
+<ul>
+<li>Li T, Fu J, Zeng Z, Cohen D, Li J, Chen Q, Li B, Liu XS. TIMER2.0 for analysis of tumor-infiltrating immune cells. Nucleic Acids Res. 2020 Jul 2;48(W1):W509-W514. doi: 10.1093/nar/gkaa407. PMID: 32442275; PMCID: PMC7319575.</li>
+</ul>
+<h2 id="概述">概述</h2>
+<ul>
+<li>肿瘤微环境 (Tumor Microenvironment, TME) 是指围绕肿瘤细胞的局部环境，包括但不限于血管、免疫细胞、基质细胞、细胞外基质 (ECM)、生长因子、细胞因子等。免疫浸润分析是指评估免疫细胞在肿瘤微环境中的分布、密度和功能状态的过程。这些分析有助于理解肿瘤免疫逃逸机制、预测患者预后以及指导免疫治疗策略。针对肿瘤微环境中的免疫浸润分析，有许多软件和工具可以使用。这些工具大多基于基因表达数据进行分析，旨在估计肿瘤样本中免疫细胞的比例或活性。下面是一些常用的分析软件和工具：</li>
+</ul>
+<ol>
+<li>CIBERSORT
+•  用途：CIBERSORT 是一种计算方法，用于从基因表达数据中推断免疫细胞的组成。
+•  特点：使用参考签名矩阵来解混样本中的细胞类型组成。
+•  输入：基因表达矩阵。
+•  输出：免疫细胞类型的相对丰度。
+•  官网：<a href="https://cibersort.stanford.edu/">CIBERSORT</a></li>
+<li>ESTIMATE
+•  用途：用于评估肿瘤样本中的免疫细胞丰度和肿瘤纯度。
+•  特点：基于基因表达数据，使用一组特定的基因来推断免疫细胞的存在。
+•  输入：基因表达矩阵。
+•  输出：免疫评分、基质评分和肿瘤纯度评分。
+•  官网：<a href="https://bioinformatics.mdanderson.org/main/Estimate">ESTIMATE</a></li>
+<li>TIMER2.0
+•  用途：用于评估肿瘤样本中六种免疫细胞（CD8+ T 细胞、CD4+ T 细胞、巨噬细胞、树突状细胞、中性粒细胞和 B 细胞）的丰度。
+•  特点：支持多种癌症类型和多个数据库。
+•  输入：基因表达矩阵。
+•  输出：免疫细胞的丰度。
+•  官网：<a href="https://timer.cistrome.org/">TIMER2.0</a></li>
+<li>xCell
+•  用途：用于从转录组数据中推断免疫细胞的组成。
+•  特点：使用一种机器学习方法来识别和量化免疫细胞。
+•  输入：基因表达矩阵。
+•  输出：免疫细胞类型的相对丰度。
+•  官网：<a href="https://xcell.ucsf.edu/">xCell</a></li>
+<li>ImmuCellAI
+•  用途：用于从转录组数据中推断免疫细胞的组成。
+•  特点：使用深度学习方法来识别和量化免疫细胞。
+•  输入：基因表达矩阵。
+•  输出：免疫细胞类型的相对丰度。
+•  官网：<a href="https://immucellai.shinyapps.io/ImmuCellAI/">ImmuCellAI</a></li>
+<li>MCP-counter
+•  用途：用于从转录组数据中推断免疫细胞的组成。
+•  特点：使用一组预定义的标记基因来估计免疫细胞的丰度。
+•  输入：基因表达矩阵。
+•  输出：免疫细胞类型的相对丰度。
+•  官网：<a href="https://github.com/ropensci/MCPcounter">MCP-counter</a></li>
+<li>QuanTIseq
+•  用途：用于从转录组数据中推断免疫细胞的组成。
+•  特点：使用一组标记基因来估计免疫细胞的丰度。
+•  输入：基因表达矩阵。
+•  输出：免疫细胞类型的相对丰度。
+•  官网：<a href="https://www.bioconductor.org/packages/release/bioc/html/QuanTIseq.html">QuanTIseq</a></li>
+</ol>
+<p>示例命令
+CIBERSORT</p>
+<ol>
+<li>
+<p>下载 CIBERSORT：
+wget <a href="https://cibersort.stanford.edu/download.html">https://cibersort.stanford.edu/download.html</a> -O cibersort.tar.gz
+tar -xzf cibersort.tar.gz</p>
+</li>
+<li>
+<p>运行 CIBERSORT：
+java -jar CIBERSORT.jar -sig human -exp gene_expression_matrix.txt -perm 1000 -out output_dir</p>
+</li>
+</ol>
+<p>ESTIMATE</p>
+<ol>
+<li>
+<p>安装 R 包：
+install.packages(&ldquo;estimate&rdquo;)</p>
+</li>
+<li>
+<p>使用 ESTIMATE：
+library(estimate)
+estimateResult &lt;- estimate(gene_expression_matrix)</p>
+</li>
+</ol>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/js/umbrella.min.js"></script>
+<script src="/js/print.js"></script>
+
+</html>

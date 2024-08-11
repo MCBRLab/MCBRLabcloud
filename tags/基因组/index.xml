@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>基因组 on Explore Biological Science And Art</title>
+    <link>http://personalized-analysis.ypt.com/tags/%E5%9F%BA%E5%9B%A0%E7%BB%84/</link>
+    <description>Recent content in 基因组 on Explore Biological Science And Art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/%E5%9F%BA%E5%9B%A0%E7%BB%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基因组共线性分析</title>
+      <link>http://personalized-analysis.ypt.com/rnaseq/%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%85%B1%E7%BA%BF%E6%80%A7/</link>
+      <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
+      
+      <guid>http://personalized-analysis.ypt.com/rnaseq/%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%85%B1%E7%BA%BF%E6%80%A7/</guid>
+      <description>概述  MCScan 是一种算法，能够扫描多个基因组或亚基因组，以识别假定的同源染色体区域，并使用基因作为锚点对齐这些区域。MCScanX 工具包实施了经过调整的 MCScan 算法，用于检测同向和共线性，该算法通过整合 14 个实用程序来扩展原始软件，用于结果可视化和其他下游分析。MCScanX在几种测序植物基因组和基因家族中的应用作为示例进行了展示。MCScanX可用于有效分析染色体结构变化，并揭示可能有助于谱系和分类群适应的基因家族扩展的历史。各种基因复制模式的综合视图可以补充特定家族中的传统基因树分析。  分析软件  MCScanX (https://github.com/wyp1125/MCScanX)   例子  https://github.com/wyp1125/MCScanX  分析需求  只对有参物种。   提供数据  有参物种得注释信息gff文件fa文件。   问题  可以全部基因，或者只针对染色体水平。  参考文献  Luo, Weijun, Brouwer, Cory (2013). “Pathview: an R/Bioconductor package for pathway-based data integration and visualization.” Bioinformatics, 29(14), 1830-1831. doi:10.1093/bioinformatics/btt285.  </description>
+    </item>
+    
+  </channel>
+</rss>

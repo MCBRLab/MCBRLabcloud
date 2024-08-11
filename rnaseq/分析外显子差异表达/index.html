@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="/images/bio.svg">
+    <link rel="stylesheet" type="text/css" href="/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <script src="https://kit.fontawesome.com/b7002cebe4.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Explore Biological Science And Art | 分析外显子差异表达</title>
+</head><body><div id="alert" class="notification is-danger is-hidden" style="position: absolute; bottom: 0; right: 0; z-index:99">
+    Alert
+</div><nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-brand">
+            
+                <img src="/images/MCBRL.svg" width="200" height="60">
+            
+        </a>
+        <a id="navBarButton" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navBarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            
+            
+            
+            <a class="navbar-item" href="/">
+            
+            <i class="fas fa-home pr-2"></i> 
+            Home</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/rnaseq/">
+            
+            <i class="fas fa-file-alt pr-2"></i> 
+            RNAseq</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/scrnaseq/">
+            
+            <i class="fas fa-file-alt pr-2"></i> 
+            scRNAseq</a>
+            
+            
+            
+            
+            
+            <a class="navbar-item" href="/tags/">
+            
+            <i class="fas fa-tags pr-2"></i> 
+            Categories</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <form class="field has-addons">
+                    <div class="control">
+                        <input class="input" id="searchTerm" type="text" value="" placeholder="Search Term...">
+                    </div>
+                    <div class="control">
+                        <button id="searchButton" class="button is-secondary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav><div id="searchResults" class="section is-hidden">
+    <h4 class="title is-3"> Search results </h4>
+    <div id="searchResultsCol" class="columns is-multiline">
+        
+    </div>
+</div>
+<script id="search-result-template" type="text/x-js-template">
+    <div class="column is-one-quarter">
+        <div class="result" id="summary-${key}">
+            <div class="card" style="border-radius: 1%;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+        <img style="border-radius: 3%;" src="${image}" alt="Placeholder image">
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media-content">
+            <p class="title is-4 has-text-centered">${title}</p>
+            <p class="subtitle is-6 "><em></em></p>
+        </div>
+        <div class="content">
+            <p class="is-small">${snippet}</p>
+        </div>
+        <div class="card-footer">
+            <a href="${link}" class="card-footer-item button is-primary">详情</a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</script><div id="content">
+<div class="section">
+    <div class="columns is-centered">
+        <div class="column is-full-mobile is-half-desktop" style="border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+            <div class="is-flex" style="justify-content: center; border-radius: 3%; background-color: #f0f5f1; position: relative;">
+                <figure class="image"> 
+                    <img style="border-radius: 3%; width: 512px; height: 512px" src=http://personalized-analysis.ypt.com/rnaseq/Figs/dexse.png alt="Placeholder image">
+                </figure>
+                
+            </div>
+            
+            <div class="container has-text-centered">
+                <h1 class="title is-bold"> 分析外显子差异表达</h1>
+                <p class="subtitle is-italic"> contact: czheluo@gmail.com</p>
+                <div class="container has-text-right">
+                    
+
+<i class="far fa-calendar-alt"></i>
+<time datetime="07-24-2024">Jul 24, 2024</time>
+
+<i class="fas fa-tags"></i>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://personalized-analysis.ypt.com/tags/%E5%A4%96%E6%98%BE%E5%AD%90%E5%B7%AE%E5%BC%82%E8%A1%A8%E8%BE%BE">外显子差异表达</a>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="http://personalized-analysis.ypt.com/tags/%E5%A4%96%E6%98%BE%E5%AD%90">外显子</a>
+
+
+                </div>
+                <hr>
+            </div>
+            
+            <hr>
+            
+            <div class="content">
+                <h2 id="概述">概述</h2>
+<ul>
+<li>RNA-seq是研究选择性剪接和其他形式的选择性亚型表达的有力工具。要了解这些过程的调控，就需要在比较条件、细胞类型或组织之间的差异亚型丰度时，对差异亚型丰度进行灵敏和特异性的检测。我们提出了 DEXSeq，这是一种统计方法，用于测试 RNA-seq 数据中差异外显子的使用。DEXSeq 使用广义线性模型，并通过考虑生物学变异来提供对错误发现的可靠控制。DEXSeq 可检测具有高灵敏度的基因，在许多情况下，可检测外显子，这些基因会受到不同外显子使用的影响。我们通过将 DEXSeq 应用于多个数据集来展示其多功能性。该方法有助于在全基因组范围内研究替代性外显子使用的调控和功能。DEXSeq 的实现以 R/Bioconductor 包的形式提供。</li>
+</ul>
+<h2 id="分析软件">分析软件</h2>
+<ul>
+<li>R package和Python package，对于intron的分析也是可以，得调整gff文件</li>
+<li></li>
+</ul>
+<h2 id="例子">例子</h2>
+<ul>
+<li><a href="https://bioconductor.org/packages/release/bioc/html/DEXSeq.html">https://bioconductor.org/packages/release/bioc/html/DEXSeq.html</a></li>
+<li><a href="https://bioconductor.org/packages/release/bioc/vignettes/DEXSeq/inst/doc/DEXSeq.html">https://bioconductor.org/packages/release/bioc/vignettes/DEXSeq/inst/doc/DEXSeq.html</a></li>
+</ul>
+<h2 id="分析需求">分析需求</h2>
+<ul>
+<li>物种注释信息全（有参）。</li>
+<li></li>
+</ul>
+<h2 id="提供数据">提供数据</h2>
+<ul>
+<li>原始数据开始，比对-定量（htseq、feature-count）-差异分析（可变剪接）。</li>
+<li></li>
+</ul>
+<h2 id="问题">问题</h2>
+<ul>
+<li>可以全部基因，或者只针对染色体水平。</li>
+</ul>
+<h2 id="参考文献">参考文献</h2>
+<ul>
+<li>Anders S, Reyes A, Huber W. Detecting differential usage of exons from RNA-seq data. Genome Res. 2012 Oct;22(10):2008-17. doi: 10.1101/gr.133744.111. Epub 2012 Jun 21. PMID: 22722343; PMCID: PMC3460195.</li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div><footer class="footer">
+    <div class="footer-container">
+    </div><div class="footer-line" style="text-align: center;"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2024 <a href="https://github.com/MCBRLab" target="_blank">MCBRLab</a>. All rights reserved.</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+    
+    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5dx0iqym06w&amp;m=6&amp;c=0006ff&amp;cr1=00fff6&amp;f=arial&amp;l=33" async="async"></script>
+</footer>
+<script src="/js/umbrella.min.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+
+</body>
+</html>
