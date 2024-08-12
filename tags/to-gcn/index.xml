@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TO-GCN on Explore Biological Science And Art</title>
-    <link>http://personalized-analysis.ypt.com/tags/to-gcn/</link>
+    <link>https://mcbrlab.tech/tags/to-gcn/</link>
     <description>Recent content in TO-GCN on Explore Biological Science And Art</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/to-gcn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate>
+    <atom:link href="https://mcbrlab.tech/tags/to-gcn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Time-ordered Gene Coexpression Network (TO-GCN)</title>
-      <link>http://personalized-analysis.ypt.com/rnaseq/to-gcn/</link>
+      <link>https://mcbrlab.tech/rnaseq/to-gcn/</link>
       <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
-      
-      <guid>http://personalized-analysis.ypt.com/rnaseq/to-gcn/</guid>
-      <description>概述  基于三维（基因表达、条件和时间）数据的时间顺序基因共表达网络（TO-GCN）构建流程  分析软件  https://github.com/petitmingchang/TO-GCN   例子  https://github.com/petitmingchang/TO-GCN  分析需求  不同时间段及处理情况，需要根据这篇论文来执行分析参考的文献：Comparative transcriptomics method to infer gene coexpression networks and its applications to maize and rice leaf transcriptomes 老师的样本是50-100个，老师的实验希望可以参考上面的文献进行安排，这个个性化分析是可以完成（分析流程参附图1）。   提供数据  该管道包含三个步骤：（1） 确定截止值，（2） 为不同的协表达式类型构建 8 个 GCN，以及 （3） 确定目标 GCN 中节点的时间顺序级别。 我们需要在两个条件（三维数据）下准备两个不同样本点的RPKM值列表（TF基因和所有基因）。除数据文件外，您还需要准备条件 1 （n1） 和条件 （n2） 下的样本数量信息。   问题  样本数至少20以上较好  参考文献  Chang YM, Lin HH, Liu WY, Yu CP, Chen HJ, Wartini PP, Kao YY, Wu YH, Lin JJ, Lu MJ, Tu SL, Wu SH, Shiu SH, Ku MSB, Li WH.</description>
+      <guid>https://mcbrlab.tech/rnaseq/to-gcn/</guid>
+      <description>概述 基于三维（基因表达、条件和时间）数据的时间顺序基因共表达网络（TO-GCN）构建流程 分析软件 https://github.com/petitmingchang/TO-GCN 例子 https://github.com/petitmingchang/TO-GCN 分析需求 不同时间段及处理情况，需要根据这篇论文来执行分析参考的文献：Comparative transcriptomics method to infer gene coexpression networks and its applications to maize and rice leaf transcriptomes 老师的样本是50-100个，老师的实验希望可以参考上面的文献进行安排，这个个性化分析是可以完成（分析流程参附图1）。 提供数据 该管道包含三个步骤：（1） 确定截止值，（2） 为不同的协表达式类型构建 8 个 GCN，以及 （3） 确定目标 GCN 中节点的时间顺序级别。 我们需要在两个条件（三维数据）下准备两个不同样本点的RPKM值列表（TF基因和所有基因）。除数据文件外，您还需要准备条件 1 （n1） 和条件 （n2） 下的样本数量信息。 问题 样本数至少20以上较好 参考文献 Chang YM, Lin HH, Liu WY, Yu CP, Chen HJ, Wartini PP, Kao YY, Wu YH, Lin JJ, Lu MJ, Tu SL, Wu SH, Shiu SH, Ku MSB, Li WH.</description>
     </item>
-    
   </channel>
 </rss>

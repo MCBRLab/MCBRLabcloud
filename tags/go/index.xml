@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GO on Explore Biological Science And Art</title>
-    <link>http://personalized-analysis.ypt.com/tags/go/</link>
+    <link>https://mcbrlab.tech/tags/go/</link>
     <description>Recent content in GO on Explore Biological Science And Art</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate>
+    <atom:link href="https://mcbrlab.tech/tags/go/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GO/KEGG网络图</title>
-      <link>http://personalized-analysis.ypt.com/rnaseq/go-kegg%E7%BD%91%E7%BB%9C%E5%9B%BE/</link>
+      <link>https://mcbrlab.tech/rnaseq/go-kegg%E7%BD%91%E7%BB%9C%E5%9B%BE/</link>
       <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
-      
-      <guid>http://personalized-analysis.ypt.com/rnaseq/go-kegg%E7%BD%91%E7%BB%9C%E5%9B%BE/</guid>
-      <description>Ingredients 分析软件  (Enrichment Map（Cytoscape）)[https://www.baderlab.org/Software/EnrichmentMap#Tutorials_and_Examples]  分析需求  老师最好先划分好分类，富集通路选择好归类提供数据。   提供数据  完成GO或者KEGG富集分析结果、转录本或者基因集合（分析）   问题  cytoscape操作及图形可视化耗时  </description>
+      <guid>https://mcbrlab.tech/rnaseq/go-kegg%E7%BD%91%E7%BB%9C%E5%9B%BE/</guid>
+      <description>Ingredients 分析软件 (Enrichment Map（Cytoscape）)[https://www.baderlab.org/Software/EnrichmentMap#Tutorials_and_Examples] 分析需求 老师最好先划分好分类，富集通路选择好归类提供数据。 提供数据 完成GO或者KEGG富集分析结果、转录本或者基因集合（分析） 问题 cytoscape操作及图形可视化耗时 </description>
     </item>
-    
   </channel>
 </rss>

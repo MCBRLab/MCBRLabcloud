@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GSE on Explore Biological Science And Art</title>
-    <link>http://personalized-analysis.ypt.com/tags/gse/</link>
+    <link>https://mcbrlab.tech/tags/gse/</link>
     <description>Recent content in GSE on Explore Biological Science And Art</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/gse/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate>
+    <atom:link href="https://mcbrlab.tech/tags/gse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>整合差异表达(DE)分析和基因集富集(GSE)分析</title>
-      <link>http://personalized-analysis.ypt.com/rnaseq/%E6%95%B4%E5%90%88%E5%B7%AE%E5%BC%82%E8%A1%A8%E8%BE%BEde%E5%88%86%E6%9E%90%E5%92%8C%E5%9F%BA%E5%9B%A0%E9%9B%86%E5%AF%8C%E9%9B%86gse%E5%88%86%E6%9E%90/</link>
+      <link>https://mcbrlab.tech/rnaseq/%E6%95%B4%E5%90%88%E5%B7%AE%E5%BC%82%E8%A1%A8%E8%BE%BEde%E5%88%86%E6%9E%90%E5%92%8C%E5%9F%BA%E5%9B%A0%E9%9B%86%E5%AF%8C%E9%9B%86gse%E5%88%86%E6%9E%90/</link>
       <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
-      
-      <guid>http://personalized-analysis.ypt.com/rnaseq/%E6%95%B4%E5%90%88%E5%B7%AE%E5%BC%82%E8%A1%A8%E8%BE%BEde%E5%88%86%E6%9E%90%E5%92%8C%E5%9F%BA%E5%9B%A0%E9%9B%86%E5%AF%8C%E9%9B%86gse%E5%88%86%E6%9E%90/</guid>
-      <description>概述  差异表达 （DE） 分析和基因集富集 （GSE） 分析通常用于单细胞 RNA 测序 （scRNA-seq） 研究。在这里，我们开发了一种集成且可扩展的计算方法iDEA，通过分层贝叶斯框架进行DE和GSE的联合分析。通过集成 DE 和 GSE 分析，iDEA 可以提高 DE 分析的功效和一致性以及 GSE 分析的准确性。重要的是，iDEA 仅使用 DE 汇总统计数据作为输入，通过与各种现有的 DE 方法进行互补和配对，从而实现有效的数据建模。我们通过广泛的模拟来说明iDEA的好处。我们还应用 iDEA 来分析三个 scRNA-seq 数据集，其中 iDEA 比现有 GSE 方法实现了高达 5 倍的功率增益，比现有 DE 方法实现了高达 64% 的功率增益。iDEA带来的力量增益使我们能够在这些数据中识别出许多现有方法无法识别的途径。  分析软件  https://xzhoulab.github.io/iDEA/ （也可适用于单细胞）   例子  https://xzhoulab.github.io/iDEA/ （也可适用于单细胞）  分析需求  适用人、鼠   提供数据  提供转录表达量及分组或DEseq2、edger、MAST的结果结合选择的GSE(GO、KEGG数据库)   问题  无  参考文献  Ma, Y., Sun, S.</description>
+      <guid>https://mcbrlab.tech/rnaseq/%E6%95%B4%E5%90%88%E5%B7%AE%E5%BC%82%E8%A1%A8%E8%BE%BEde%E5%88%86%E6%9E%90%E5%92%8C%E5%9F%BA%E5%9B%A0%E9%9B%86%E5%AF%8C%E9%9B%86gse%E5%88%86%E6%9E%90/</guid>
+      <description>概述 差异表达 （DE） 分析和基因集富集 （GSE） 分析通常用于单细胞 RNA 测序 （scRNA-seq） 研究。在这里，我们开发了一种集成且可扩展的计算方法iDEA，通过分层贝叶斯框架进行DE和GSE的联合分析。通过集成 DE 和 GSE 分析，iDEA 可以提高 DE 分析的功效和一致性以及 GSE 分析的准确性。重要的是，iDEA 仅使用 DE 汇总统计数据作为输入，通过与各种现有的 DE 方法进行互补和配对，从而实现有效的数据建模。我们通过广泛的模拟来说明iDEA的好处。我们还应用 iDEA 来分析三个 scRNA-seq 数据集，其中 iDEA 比现有 GSE 方法实现了高达 5 倍的功率增益，比现有 DE 方法实现了高达 64% 的功率增益。iDEA带来的力量增益使我们能够在这些数据中识别出许多现有方法无法识别的途径。 分析软件 https://xzhoulab.github.io/iDEA/ （也可适用于单细胞） 例子 https://xzhoulab.github.io/iDEA/ （也可适用于单细胞） 分析需求 适用人、鼠 提供数据 提供转录表达量及分组或DEseq2、edger、MAST的结果结合选择的GSE(GO、KEGG数据库) 问题 无 参考文献 Ma, Y., Sun, S., Shang, X. et al. Integrative differential expression and gene set enrichment analysis using summary statistics for scRNA-seq studies.</description>
     </item>
-    
   </channel>
 </rss>

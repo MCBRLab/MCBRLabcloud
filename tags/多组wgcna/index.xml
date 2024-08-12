@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>多组WGCNA on Explore Biological Science And Art</title>
-    <link>http://personalized-analysis.ypt.com/tags/%E5%A4%9A%E7%BB%84wgcna/</link>
+    <link>https://mcbrlab.tech/tags/%E5%A4%9A%E7%BB%84wgcna/</link>
     <description>Recent content in 多组WGCNA on Explore Biological Science And Art</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/%E5%A4%9A%E7%BB%84wgcna/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate>
+    <atom:link href="https://mcbrlab.tech/tags/%E5%A4%9A%E7%BB%84wgcna/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>多组WGCNA展示</title>
-      <link>http://personalized-analysis.ypt.com/rnaseq/%E5%A4%9A%E7%BB%84wgcna%E5%B1%95%E7%A4%BA/</link>
+      <link>https://mcbrlab.tech/rnaseq/%E5%A4%9A%E7%BB%84wgcna%E5%B1%95%E7%A4%BA/</link>
       <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
-      
-      <guid>http://personalized-analysis.ypt.com/rnaseq/%E5%A4%9A%E7%BB%84wgcna%E5%B1%95%E7%A4%BA/</guid>
-      <description>概述  关联网络越来越多地用于生物信息学应用。例如，加权基因共表达网络分析是一种系统生物学方法，用于描述微阵列样本中基因之间的相关性模式。加权相关网络分析（WGCNA）可用于查找高度相关基因的簇（模块），使用模块特征基因或模块内中心基因总结此类簇，用于将模块彼此关联以及与外部样本性状关联（使用特征基因网络方法），以及用于计算模块隶属度。相关性网络促进了基于网络的基因筛选方法，可用于识别候选生物标志物或治疗靶点。  分析软件  ：https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/（开发的脚步）   例子  https://systemsbio.ucsd.edu/WGCNAdemo/  分析需求  只对有参物种。   提供数据  提供多样本表达量的数据，分组信息，或者使用线上的WGCNA的结果来进行分析   问题  无  参考文献  The original tutorial provided by the creators (Peter Langfelder and Steve Horvath) https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/ A nice Nature Plants paper by Yu et al. https://www.nature.com/articles/s41477-021-00897-y (Check their &amp;ldquo;data availability&amp;rdquo; section for the link to the github R script)  </description>
+      <guid>https://mcbrlab.tech/rnaseq/%E5%A4%9A%E7%BB%84wgcna%E5%B1%95%E7%A4%BA/</guid>
+      <description>概述 关联网络越来越多地用于生物信息学应用。例如，加权基因共表达网络分析是一种系统生物学方法，用于描述微阵列样本中基因之间的相关性模式。加权相关网络分析（WGCNA）可用于查找高度相关基因的簇（模块），使用模块特征基因或模块内中心基因总结此类簇，用于将模块彼此关联以及与外部样本性状关联（使用特征基因网络方法），以及用于计算模块隶属度。相关性网络促进了基于网络的基因筛选方法，可用于识别候选生物标志物或治疗靶点。 分析软件 ：https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/（开发的脚步） 例子 https://systemsbio.ucsd.edu/WGCNAdemo/ 分析需求 只对有参物种。 提供数据 提供多样本表达量的数据，分组信息，或者使用线上的WGCNA的结果来进行分析 问题 无 参考文献 The original tutorial provided by the creators (Peter Langfelder and Steve Horvath) https://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/ A nice Nature Plants paper by Yu et al. https://www.nature.com/articles/s41477-021-00897-y (Check their &amp;ldquo;data availability&amp;rdquo; section for the link to the github R script) </description>
     </item>
-    
   </channel>
 </rss>
