@@ -2,9 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Explore Biological Science And Art</title>
-    <link>http://personalized-analysis.ypt.com/categories/</link>
+    <link>https://mcbrlab.tech/categories/</link>
     <description>Recent content in Categories on Explore Biological Science And Art</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://personalized-analysis.ypt.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://mcbrlab.tech/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

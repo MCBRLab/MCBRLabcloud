@@ -2,38 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>数据可视化 on Explore Biological Science And Art</title>
-    <link>http://personalized-analysis.ypt.com/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
+    <link>https://mcbrlab.tech/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
     <description>Recent content in 数据可视化 on Explore Biological Science And Art</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate>
+    <atom:link href="https://mcbrlab.tech/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>三个差异组比较分析方法</title>
-      <link>http://personalized-analysis.ypt.com/rnaseq/%E4%B8%89%E4%B8%AA%E5%B7%AE%E5%BC%82%E7%BB%84%E6%AF%94%E8%BE%83%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</link>
+      <link>https://mcbrlab.tech/rnaseq/%E4%B8%89%E4%B8%AA%E5%B7%AE%E5%BC%82%E7%BB%84%E6%AF%94%E8%BE%83%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</link>
       <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
-      
-      <guid>http://personalized-analysis.ypt.com/rnaseq/%E4%B8%89%E4%B8%AA%E5%B7%AE%E5%BC%82%E7%BB%84%E6%AF%94%E8%BE%83%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</guid>
-      <description>概述  volcano3D软件包可以探索三组之间差异表达的探针。其主要目的是用于在三维火山图中可视化差异表达的基因。可以使用 plotly 将这些绘图转换为交互式可视化。 使用 volcano3D 软件包执行 2x3 路分析。在这种类型的分析中，有一个二元因素，例如药物反应（反应者与无反应者）和具有 3 个类别的第二个因素，例如具有 3 种药物的试验。  分析软件  R package   例子  https://cran.r-project.org/web/packages/volcano3D/vignettes/Vignette.html  分析需求  个比较组间的比较，不能多，不能少。   提供数据  提供三个比较组的基因表达量。   问题  三个比较组最好是有相关关系或者联系。  参考文献  Lewis, Myles J., et al. Molecular portraits of early rheumatoid arthritis identify clinical and treatment response phenotypes. Cell reports 28.9 (2019): 2455-2470. (DOI: 10.1016/j.celrep.2019.07.091)  </description>
+      <guid>https://mcbrlab.tech/rnaseq/%E4%B8%89%E4%B8%AA%E5%B7%AE%E5%BC%82%E7%BB%84%E6%AF%94%E8%BE%83%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</guid>
+      <description>概述 volcano3D软件包可以探索三组之间差异表达的探针。其主要目的是用于在三维火山图中可视化差异表达的基因。可以使用 plotly 将这些绘图转换为交互式可视化。 使用 volcano3D 软件包执行 2x3 路分析。在这种类型的分析中，有一个二元因素，例如药物反应（反应者与无反应者）和具有 3 个类别的第二个因素，例如具有 3 种药物的试验。 分析软件 R package 例子 https://cran.r-project.org/web/packages/volcano3D/vignettes/Vignette.html 分析需求 个比较组间的比较，不能多，不能少。 提供数据 提供三个比较组的基因表达量。 问题 三个比较组最好是有相关关系或者联系。 参考文献 Lewis, Myles J., et al. Molecular portraits of early rheumatoid arthritis identify clinical and treatment response phenotypes. Cell reports 28.9 (2019): 2455-2470. (DOI: 10.1016/j.celrep.2019.07.091) </description>
     </item>
-    
     <item>
       <title>复杂Venn</title>
-      <link>http://personalized-analysis.ypt.com/rnaseq/%E5%A4%8D%E6%9D%82venn/</link>
+      <link>https://mcbrlab.tech/rnaseq/%E5%A4%8D%E6%9D%82venn/</link>
       <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
-      
-      <guid>http://personalized-analysis.ypt.com/rnaseq/%E5%A4%8D%E6%9D%82venn/</guid>
-      <description>概述 -nVenn： 用于渲染广义 n 维维恩图的所有区域，同时保持每个区域的面积与所包含的元素数量大致成正比。此外，欧拉图中缺失的区域会导致表示简化。该算法生成一个 n 维维恩图，并在每个区域中插入给定区域的圆圈。然后，通过动态的自校正模拟重新排列图表，其中每个设置的边界都会收缩，直到它接触到内部的圆圈。
-分析软件  nVennR R package   例子  https://czheluo.github.io/Teach-Bioinformatics-R-dataviz/ https://github.com/cran/nVennR  分析需求  相同指标不同组别的对应关系。   提供数据  差异基因集合。   问题  确认相应的图形要求或者展示情况。  参考文献  José G Pérez-Silva, Miguel Araujo-Voces, Víctor Quesada, nVenn: generalized, quasi-proportional Venn and Euler diagrams, Bioinformatics, Volume 34, Issue 13, July 2018, Pages 2322–2324, https://doi.org/10.1093/bioinformatics/bty109  </description>
+      <guid>https://mcbrlab.tech/rnaseq/%E5%A4%8D%E6%9D%82venn/</guid>
+      <description>概述 -nVenn： 用于渲染广义 n 维维恩图的所有区域，同时保持每个区域的面积与所包含的元素数量大致成正比。此外，欧拉图中缺失的区域会导致表示简化。该算法生成一个 n 维维恩图，并在每个区域中插入给定区域的圆圈。然后，通过动态的自校正模拟重新排列图表，其中每个设置的边界都会收缩，直到它接触到内部的圆圈。&#xA;分析软件 nVennR R package 例子 https://czheluo.github.io/Teach-Bioinformatics-R-dataviz/ https://github.com/cran/nVennR 分析需求 相同指标不同组别的对应关系。 提供数据 差异基因集合。 问题 确认相应的图形要求或者展示情况。 参考文献 José G Pérez-Silva, Miguel Araujo-Voces, Víctor Quesada, nVenn: generalized, quasi-proportional Venn and Euler diagrams, Bioinformatics, Volume 34, Issue 13, July 2018, Pages 2322–2324, https://doi.org/10.1093/bioinformatics/bty109 </description>
     </item>
-    
     <item>
       <title>简单及复杂圈图可视化</title>
-      <link>http://personalized-analysis.ypt.com/rnaseq/%E7%AE%80%E5%8D%95%E5%8F%8A%E5%A4%8D%E6%9D%82%E5%9C%88%E5%9B%BE%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
+      <link>https://mcbrlab.tech/rnaseq/%E7%AE%80%E5%8D%95%E5%8F%8A%E5%A4%8D%E6%9D%82%E5%9C%88%E5%9B%BE%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
       <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
-      
-      <guid>http://personalized-analysis.ypt.com/rnaseq/%E7%AE%80%E5%8D%95%E5%8F%8A%E5%A4%8D%E6%9D%82%E5%9C%88%E5%9B%BE%E5%8F%AF%E8%A7%86%E5%8C%96/</guid>
-      <description>概述  Circos Circos，以促进识别和分析基因组比较产生的相似性和差异性。我们的工具可以有效地显示基因组结构的变化，并且通常可以显示基因组间隔之间的任何其他类型的位置关系。此类数据通常通过序列比对、杂交阵列、基因组定位和基因分型研究产生。Circos 使用圆形象形图布局，通过使用丝带来促进位置对之间关系的显示，丝带编码相关基因组元素的位置、大小和方向。Circos 能够将数据显示为散点图、折线图和直方图、热图、图块、连接器和文本。可以从 GFF 样式的数据输入和分层配置文件创建位图或矢量图像，这些文件可以通过自动化工具轻松生成，使 Circos 适合在数据分析和报告管道中快速部署。  分析软件  R package和Perl package 自主开发脚本   例子  https://jokergoo.github.io/circlize_book/book/introduction.html https://circos.ca/  分析需求  只对有参物种。   提供数据  表达量或者多变量的数据及其属性（位置信息及关系）。   问题  提供多样本基因表达量，表型值。  参考文献  Krzywinski, M. et al. Circos: an Information Aesthetic for Comparative Genomics. Genome Res (2009) 19:1639-1645  </description>
+      <guid>https://mcbrlab.tech/rnaseq/%E7%AE%80%E5%8D%95%E5%8F%8A%E5%A4%8D%E6%9D%82%E5%9C%88%E5%9B%BE%E5%8F%AF%E8%A7%86%E5%8C%96/</guid>
+      <description>概述 Circos Circos，以促进识别和分析基因组比较产生的相似性和差异性。我们的工具可以有效地显示基因组结构的变化，并且通常可以显示基因组间隔之间的任何其他类型的位置关系。此类数据通常通过序列比对、杂交阵列、基因组定位和基因分型研究产生。Circos 使用圆形象形图布局，通过使用丝带来促进位置对之间关系的显示，丝带编码相关基因组元素的位置、大小和方向。Circos 能够将数据显示为散点图、折线图和直方图、热图、图块、连接器和文本。可以从 GFF 样式的数据输入和分层配置文件创建位图或矢量图像，这些文件可以通过自动化工具轻松生成，使 Circos 适合在数据分析和报告管道中快速部署。 分析软件 R package和Perl package 自主开发脚本 例子 https://jokergoo.github.io/circlize_book/book/introduction.html https://circos.ca/ 分析需求 只对有参物种。 提供数据 表达量或者多变量的数据及其属性（位置信息及关系）。 问题 提供多样本基因表达量，表型值。 参考文献 Krzywinski, M. et al. Circos: an Information Aesthetic for Comparative Genomics. Genome Res (2009) 19:1639-1645 </description>
     </item>
-    
   </channel>
 </rss>

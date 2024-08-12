@@ -2,28 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>通路图 on Explore Biological Science And Art</title>
-    <link>http://personalized-analysis.ypt.com/tags/%E9%80%9A%E8%B7%AF%E5%9B%BE/</link>
+    <link>https://mcbrlab.tech/tags/%E9%80%9A%E8%B7%AF%E5%9B%BE/</link>
     <description>Recent content in 通路图 on Explore Biological Science And Art</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jul 2024 20:16:56 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/%E9%80%9A%E8%B7%AF%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jul 2024 20:16:56 -0500</lastBuildDate>
+    <atom:link href="https://mcbrlab.tech/tags/%E9%80%9A%E8%B7%AF%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MapMan/通路图</title>
-      <link>http://personalized-analysis.ypt.com/rnaseq/mapman-%E9%80%9A%E8%B7%AF%E5%9B%BE/</link>
+      <link>https://mcbrlab.tech/rnaseq/mapman-%E9%80%9A%E8%B7%AF%E5%9B%BE/</link>
       <pubDate>Thu, 25 Jul 2024 20:16:56 -0500</pubDate>
-      
-      <guid>http://personalized-analysis.ypt.com/rnaseq/mapman-%E9%80%9A%E8%B7%AF%E5%9B%BE/</guid>
-      <description>MapMan/通路图 分析软件：  Mercator4（注释）、mapman4.0（可视化）  分析需求：  已知物种或者选择近缘物种，物种选择需要老师根据Mercator4的官网来选择，同时要到mapman的官网选择可视化类型（代谢通路）  提供数据：  转录本或者基因序列  问题：  这些个网站很不稳定，注释只能线上进行（数据量大小有限制，50M）。  参考文献  Rainer Schwacke, Gabriel Y. Ponce-Soto, Kirsten Krause, Anthony M. Bolger, Borjana Arsova, Asis Hallab, Kristina Gruden, Mark Stitt, Marie E. Bolger, Björn Usadel,MapMan4: A Refined Protein Classification and Annotation Framework Applicable to Multi-Omics Data Analysis,Molecular Plant, Volume 12, Issue 6,2019,Pages 879-892,ISSN 1674-2052,https://doi.org/10.1016/j.molp.2019.01.003.  </description>
+      <guid>https://mcbrlab.tech/rnaseq/mapman-%E9%80%9A%E8%B7%AF%E5%9B%BE/</guid>
+      <description>MapMan/通路图 分析软件： Mercator4（注释）、mapman4.0（可视化） 分析需求： 已知物种或者选择近缘物种，物种选择需要老师根据Mercator4的官网来选择，同时要到mapman的官网选择可视化类型（代谢通路） 提供数据： 转录本或者基因序列 问题： 这些个网站很不稳定，注释只能线上进行（数据量大小有限制，50M）。 参考文献 Rainer Schwacke, Gabriel Y. Ponce-Soto, Kirsten Krause, Anthony M. Bolger, Borjana Arsova, Asis Hallab, Kristina Gruden, Mark Stitt, Marie E. Bolger, Björn Usadel,MapMan4: A Refined Protein Classification and Annotation Framework Applicable to Multi-Omics Data Analysis,Molecular Plant, Volume 12, Issue 6,2019,Pages 879-892,ISSN 1674-2052,https://doi.org/10.1016/j.molp.2019.01.003. </description>
     </item>
-    
     <item>
       <title>KEGG 通路可视化</title>
-      <link>http://personalized-analysis.ypt.com/rnaseq/kegg-%E9%80%9A%E8%B7%AF%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
+      <link>https://mcbrlab.tech/rnaseq/kegg-%E9%80%9A%E8%B7%AF%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
       <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
-      
-      <guid>http://personalized-analysis.ypt.com/rnaseq/kegg-%E9%80%9A%E8%B7%AF%E5%8F%AF%E8%A7%86%E5%8C%96/</guid>
-      <description>概述  Pathview 为路径生成原生 KEGG 视图（PNG 格式）和 Graphviz 视图（PDF 格式）。KEGG视图保留了有关通路，空间和时间信息，组织/细胞类型，输入，输出和连接的所有元数据。这对于人类阅读和解释通路生物学很重要。Graphviz 视图可以更好地控制节点和边缘属性，更好地查看路径拓扑，更好地理解路径分析统计信息。目前仅实施了 KEGG 途径。希望将来能够支持来自 Reactome、NCI 和其他数据库的路径。请注意，自 2011 年 5 月以来，KEGG 需要订阅才能进行 FTP 访问。但是，Pathview 通过 html 访问下载单个路径图和数据文件，这些访问是免费提供的（用于学术和非商业用途）。Pathview 在解析 KEGG xml 数据文件时使用 KEGGgraph [Zhang et al， 2009]。  分析软件  Pathview（R）https://pathview.uncc.edu/   例子  https://pathview.r-forge.r-project.org/  分析需求  提供差异分析基因的KEGG富集结果。   提供数据  KEGG富集分析结果、转录本或者基因集合（需分析）。   问题  无  参考文献  Luo, Weijun, Brouwer, Cory (2013). “Pathview: an R/Bioconductor package for pathway-based data integration and visualization.</description>
+      <guid>https://mcbrlab.tech/rnaseq/kegg-%E9%80%9A%E8%B7%AF%E5%8F%AF%E8%A7%86%E5%8C%96/</guid>
+      <description>概述 Pathview 为路径生成原生 KEGG 视图（PNG 格式）和 Graphviz 视图（PDF 格式）。KEGG视图保留了有关通路，空间和时间信息，组织/细胞类型，输入，输出和连接的所有元数据。这对于人类阅读和解释通路生物学很重要。Graphviz 视图可以更好地控制节点和边缘属性，更好地查看路径拓扑，更好地理解路径分析统计信息。目前仅实施了 KEGG 途径。希望将来能够支持来自 Reactome、NCI 和其他数据库的路径。请注意，自 2011 年 5 月以来，KEGG 需要订阅才能进行 FTP 访问。但是，Pathview 通过 html 访问下载单个路径图和数据文件，这些访问是免费提供的（用于学术和非商业用途）。Pathview 在解析 KEGG xml 数据文件时使用 KEGGgraph [Zhang et al， 2009]。 分析软件 Pathview（R）https://pathview.uncc.edu/ 例子 https://pathview.r-forge.r-project.org/ 分析需求 提供差异分析基因的KEGG富集结果。 提供数据 KEGG富集分析结果、转录本或者基因集合（需分析）。 问题 无 参考文献 Luo, Weijun, Brouwer, Cory (2013). “Pathview: an R/Bioconductor package for pathway-based data integration and visualization.” Bioinformatics, 29(14), 1830-1831. doi:10.1093/bioinformatics/btt285. </description>
     </item>
-    
   </channel>
 </rss>

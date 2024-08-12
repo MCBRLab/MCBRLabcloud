@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scrnaseqs on Explore Biological Science And Art</title>
-    <link>http://personalized-analysis.ypt.com/scrnaseq/</link>
+    <link>https://mcbrlab.tech/scrnaseq/</link>
     <description>Recent content in Scrnaseqs on Explore Biological Science And Art</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Aug 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/scrnaseq/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Aug 2024 20:05:39 -0500</lastBuildDate>
+    <atom:link href="https://mcbrlab.tech/scrnaseq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>肿瘤-免疫浸润分析</title>
-      <link>http://personalized-analysis.ypt.com/scrnaseq/%E5%85%8D%E7%96%AB%E6%B5%B8%E6%B6%A6%E5%88%86%E6%9E%90/</link>
+      <link>https://mcbrlab.tech/scrnaseq/%E5%85%8D%E7%96%AB%E6%B5%B8%E6%B6%A6%E5%88%86%E6%9E%90/</link>
       <pubDate>Thu, 01 Aug 2024 20:05:39 -0500</pubDate>
-      
-      <guid>http://personalized-analysis.ypt.com/scrnaseq/%E5%85%8D%E7%96%AB%E6%B5%B8%E6%B6%A6%E5%88%86%E6%9E%90/</guid>
-      <description>分析需求  肿瘤组织中并不是100%的细胞都是肿瘤细胞，还含有基质细胞，成纤维细胞，免疫细胞等，这些细胞构成了肿瘤微环境。 为了准确评估肿瘤微环境中免疫细胞的构成，我们可以使用cibersort或者不同的模型对RNA表达谱数据去卷积，以估计不同细胞类型和功能状态的免疫细胞的丰度。  提供数据  人活鼠不同样本的基因表达量   问题  小鼠或者大鼠可以进行ID转换后可分析  参考文献  Li T, Fu J, Zeng Z, Cohen D, Li J, Chen Q, Li B, Liu XS. TIMER2.0 for analysis of tumor-infiltrating immune cells. Nucleic Acids Res. 2020 Jul 2;48(W1):W509-W514. doi: 10.1093/nar/gkaa407. PMID: 32442275; PMCID: PMC7319575.  概述  肿瘤微环境 (Tumor Microenvironment, TME) 是指围绕肿瘤细胞的局部环境，包括但不限于血管、免疫细胞、基质细胞、细胞外基质 (ECM)、生长因子、细胞因子等。免疫浸润分析是指评估免疫细胞在肿瘤微环境中的分布、密度和功能状态的过程。这些分析有助于理解肿瘤免疫逃逸机制、预测患者预后以及指导免疫治疗策略。针对肿瘤微环境中的免疫浸润分析，有许多软件和工具可以使用。这些工具大多基于基因表达数据进行分析，旨在估计肿瘤样本中免疫细胞的比例或活性。下面是一些常用的分析软件和工具：   CIBERSORT • 用途：CIBERSORT 是一种计算方法，用于从基因表达数据中推断免疫细胞的组成。 • 特点：使用参考签名矩阵来解混样本中的细胞类型组成。 • 输入：基因表达矩阵。 • 输出：免疫细胞类型的相对丰度。 • 官网：CIBERSORT ESTIMATE • 用途：用于评估肿瘤样本中的免疫细胞丰度和肿瘤纯度。 • 特点：基于基因表达数据，使用一组特定的基因来推断免疫细胞的存在。 • 输入：基因表达矩阵。 • 输出：免疫评分、基质评分和肿瘤纯度评分。 • 官网：ESTIMATE TIMER2.</description>
+      <guid>https://mcbrlab.tech/scrnaseq/%E5%85%8D%E7%96%AB%E6%B5%B8%E6%B6%A6%E5%88%86%E6%9E%90/</guid>
+      <description>分析需求 肿瘤组织中并不是100%的细胞都是肿瘤细胞，还含有基质细胞，成纤维细胞，免疫细胞等，这些细胞构成了肿瘤微环境。 为了准确评估肿瘤微环境中免疫细胞的构成，我们可以使用cibersort或者不同的模型对RNA表达谱数据去卷积，以估计不同细胞类型和功能状态的免疫细胞的丰度。 提供数据 人活鼠不同样本的基因表达量 问题 小鼠或者大鼠可以进行ID转换后可分析 参考文献 Li T, Fu J, Zeng Z, Cohen D, Li J, Chen Q, Li B, Liu XS. TIMER2.0 for analysis of tumor-infiltrating immune cells. Nucleic Acids Res. 2020 Jul 2;48(W1):W509-W514. doi: 10.1093/nar/gkaa407. PMID: 32442275; PMCID: PMC7319575. 概述 肿瘤微环境 (Tumor Microenvironment, TME) 是指围绕肿瘤细胞的局部环境，包括但不限于血管、免疫细胞、基质细胞、细胞外基质 (ECM)、生长因子、细胞因子等。免疫浸润分析是指评估免疫细胞在肿瘤微环境中的分布、密度和功能状态的过程。这些分析有助于理解肿瘤免疫逃逸机制、预测患者预后以及指导免疫治疗策略。针对肿瘤微环境中的免疫浸润分析，有许多软件和工具可以使用。这些工具大多基于基因表达数据进行分析，旨在估计肿瘤样本中免疫细胞的比例或活性。下面是一些常用的分析软件和工具： CIBERSORT • 用途：CIBERSORT 是一种计算方法，用于从基因表达数据中推断免疫细胞的组成。 • 特点：使用参考签名矩阵来解混样本中的细胞类型组成。 • 输入：基因表达矩阵。 • 输出：免疫细胞类型的相对丰度。 • 官网：CIBERSORT ESTIMATE • 用途：用于评估肿瘤样本中的免疫细胞丰度和肿瘤纯度。 • 特点：基于基因表达数据，使用一组特定的基因来推断免疫细胞的存在。 • 输入：基因表达矩阵。 • 输出：免疫评分、基质评分和肿瘤纯度评分。 • 官网：ESTIMATE TIMER2.</description>
     </item>
-    
   </channel>
 </rss>

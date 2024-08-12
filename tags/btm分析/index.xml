@@ -2,19 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BTM分析 on Explore Biological Science And Art</title>
-    <link>http://personalized-analysis.ypt.com/tags/btm%E5%88%86%E6%9E%90/</link>
+    <link>https://mcbrlab.tech/tags/btm%E5%88%86%E6%9E%90/</link>
     <description>Recent content in BTM分析 on Explore Biological Science And Art</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate><atom:link href="http://personalized-analysis.ypt.com/tags/btm%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jul 2024 20:05:39 -0500</lastBuildDate>
+    <atom:link href="https://mcbrlab.tech/tags/btm%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BTM分析</title>
-      <link>http://personalized-analysis.ypt.com/rnaseq/btm%E5%88%86%E6%9E%90/</link>
+      <link>https://mcbrlab.tech/rnaseq/btm%E5%88%86%E6%9E%90/</link>
       <pubDate>Wed, 24 Jul 2024 20:05:39 -0500</pubDate>
-      
-      <guid>http://personalized-analysis.ypt.com/rnaseq/btm%E5%88%86%E6%9E%90/</guid>
-      <description>概述  许多疫苗通过抗体诱导保护性免疫。系统生物学方法已被用于确定可用于预测人类疫苗诱导免疫的特征，但是否存在可用于预测对任何疫苗的抗体反应的“通用特征”尚不清楚。在这里，我们在已发表的黄热病病毒和流感病毒疫苗研究的更广泛背景下，对健康成年人对多糖和脑膜炎球菌结合疫苗的免疫反应进行了系统分析。为了实现这一目标，我们对公开可用的人类血液转录组和特定生物学背景下的系统规模数据库进行了大规模网络整合，并推导出了一组血液中的转录模块。这些模块揭示了对不同类别疫苗的抗体反应的不同转录特征，这为原发性病毒、蛋白质召回和抗多糖反应提供了关键见解。我们的研究结果阐明了在人类中协调疫苗免疫的早期转录程序，并展示了整合网络建模的力量。  分析软件  R(自主开发)   例子  https://github.com/shuzhao-li/BTM https://www.nature.com/articles/ni.2789  分析需求  分析内容获得APA的鉴定及定量结果。如果有其他的要求可以提。   提供数据  分析得到BTM中module的表达量，然后根据module的表达量进行差异分析提供数据：RNA-seq，基因组准备好   问题  无  参考文献  Li, S., Rouphael, N., Duraisingham, S., Romero-Steiner, S., Presnell, S., Davis, C., &amp;hellip;, Pulendran, B. (2014). Molecular signatures of antibody responses derived from a systems biological study of 5 human vaccines. Nature immunology, 15(2), 195. https://www.nature.com/articles/ni.2789  </description>
+      <guid>https://mcbrlab.tech/rnaseq/btm%E5%88%86%E6%9E%90/</guid>
+      <description>概述 许多疫苗通过抗体诱导保护性免疫。系统生物学方法已被用于确定可用于预测人类疫苗诱导免疫的特征，但是否存在可用于预测对任何疫苗的抗体反应的“通用特征”尚不清楚。在这里，我们在已发表的黄热病病毒和流感病毒疫苗研究的更广泛背景下，对健康成年人对多糖和脑膜炎球菌结合疫苗的免疫反应进行了系统分析。为了实现这一目标，我们对公开可用的人类血液转录组和特定生物学背景下的系统规模数据库进行了大规模网络整合，并推导出了一组血液中的转录模块。这些模块揭示了对不同类别疫苗的抗体反应的不同转录特征，这为原发性病毒、蛋白质召回和抗多糖反应提供了关键见解。我们的研究结果阐明了在人类中协调疫苗免疫的早期转录程序，并展示了整合网络建模的力量。 分析软件 R(自主开发) 例子 https://github.com/shuzhao-li/BTM https://www.nature.com/articles/ni.2789 分析需求 分析内容获得APA的鉴定及定量结果。如果有其他的要求可以提。 提供数据 分析得到BTM中module的表达量，然后根据module的表达量进行差异分析提供数据：RNA-seq，基因组准备好 问题 无 参考文献 Li, S., Rouphael, N., Duraisingham, S., Romero-Steiner, S., Presnell, S., Davis, C., &amp;hellip;, Pulendran, B. (2014). Molecular signatures of antibody responses derived from a systems biological study of 5 human vaccines. Nature immunology, 15(2), 195. https://www.nature.com/articles/ni.2789 </description>
     </item>
-    
   </channel>
 </rss>
